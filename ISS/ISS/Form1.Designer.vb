@@ -71,6 +71,8 @@ Partial Class fm_Main
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
@@ -134,6 +136,8 @@ Partial Class fm_Main
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Label2)
+        Me.TabPage3.Controls.Add(Me.Label1)
         Me.TabPage3.Controls.Add(Me.Panel1)
         Me.TabPage3.Controls.Add(Me.Panel_IMGemblem1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 73)
@@ -560,6 +564,24 @@ Partial Class fm_Main
         Me.Panel1.Size = New System.Drawing.Size(127, 100)
         Me.Panel1.TabIndex = 1
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(258, 3)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(291, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Mitglieder: William Shepherd, Juri Gidsenko, Sergei Krikaljow"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(258, 16)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(218, 13)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -573,6 +595,7 @@ Partial Class fm_Main
         Me.Text = "ISS Missionen"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -624,5 +647,7 @@ Partial Class fm_Main
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents Panel_IMGemblem1 As System.Windows.Forms.Panel
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
