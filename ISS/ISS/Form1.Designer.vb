@@ -22,6 +22,7 @@ Partial Class fm_Main
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(fm_Main))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
@@ -68,7 +69,9 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -130,6 +133,7 @@ Partial Class fm_Main
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Panel_IMGemblem1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 73)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(590, 345)
@@ -139,261 +143,261 @@ Partial Class fm_Main
         '
         'TabPage4
         '
-        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 73)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage4.Size = New System.Drawing.Size(590, 345)
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "2"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'TabPage5
         '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 73)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage5.Size = New System.Drawing.Size(590, 345)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "3"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
         'TabPage6
         '
-        Me.TabPage6.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 73)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage6.Size = New System.Drawing.Size(590, 345)
         Me.TabPage6.TabIndex = 3
         Me.TabPage6.Text = "4"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
         'TabPage7
         '
-        Me.TabPage7.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 73)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage7.Size = New System.Drawing.Size(590, 345)
         Me.TabPage7.TabIndex = 4
         Me.TabPage7.Text = "5"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
         'TabPage8
         '
-        Me.TabPage8.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 73)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage8.Size = New System.Drawing.Size(590, 345)
         Me.TabPage8.TabIndex = 5
         Me.TabPage8.Text = "6"
         Me.TabPage8.UseVisualStyleBackColor = True
         '
         'TabPage9
         '
-        Me.TabPage9.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 73)
         Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage9.Size = New System.Drawing.Size(590, 345)
         Me.TabPage9.TabIndex = 6
         Me.TabPage9.Text = "7"
         Me.TabPage9.UseVisualStyleBackColor = True
         '
         'TabPage10
         '
-        Me.TabPage10.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 73)
         Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage10.Size = New System.Drawing.Size(590, 345)
         Me.TabPage10.TabIndex = 7
         Me.TabPage10.Text = "8"
         Me.TabPage10.UseVisualStyleBackColor = True
         '
         'TabPage11
         '
-        Me.TabPage11.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage11.Location = New System.Drawing.Point(4, 73)
         Me.TabPage11.Name = "TabPage11"
-        Me.TabPage11.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage11.Size = New System.Drawing.Size(590, 345)
         Me.TabPage11.TabIndex = 8
         Me.TabPage11.Text = "9"
         Me.TabPage11.UseVisualStyleBackColor = True
         '
         'TabPage12
         '
-        Me.TabPage12.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage12.Location = New System.Drawing.Point(4, 73)
         Me.TabPage12.Name = "TabPage12"
-        Me.TabPage12.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage12.Size = New System.Drawing.Size(590, 345)
         Me.TabPage12.TabIndex = 9
         Me.TabPage12.Text = "10"
         Me.TabPage12.UseVisualStyleBackColor = True
         '
         'TabPage13
         '
-        Me.TabPage13.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage13.Location = New System.Drawing.Point(4, 73)
         Me.TabPage13.Name = "TabPage13"
-        Me.TabPage13.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage13.Size = New System.Drawing.Size(590, 345)
         Me.TabPage13.TabIndex = 10
         Me.TabPage13.Text = "11"
         Me.TabPage13.UseVisualStyleBackColor = True
         '
         'TabPage14
         '
-        Me.TabPage14.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage14.Location = New System.Drawing.Point(4, 73)
         Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage14.Size = New System.Drawing.Size(590, 345)
         Me.TabPage14.TabIndex = 11
         Me.TabPage14.Text = "12"
         Me.TabPage14.UseVisualStyleBackColor = True
         '
         'TabPage15
         '
-        Me.TabPage15.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage15.Location = New System.Drawing.Point(4, 73)
         Me.TabPage15.Name = "TabPage15"
-        Me.TabPage15.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage15.Size = New System.Drawing.Size(590, 345)
         Me.TabPage15.TabIndex = 12
         Me.TabPage15.Text = "13"
         Me.TabPage15.UseVisualStyleBackColor = True
         '
         'TabPage16
         '
-        Me.TabPage16.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage16.Location = New System.Drawing.Point(4, 73)
         Me.TabPage16.Name = "TabPage16"
-        Me.TabPage16.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage16.Size = New System.Drawing.Size(590, 345)
         Me.TabPage16.TabIndex = 13
         Me.TabPage16.Text = "14"
         Me.TabPage16.UseVisualStyleBackColor = True
         '
         'TabPage17
         '
-        Me.TabPage17.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage17.Location = New System.Drawing.Point(4, 73)
         Me.TabPage17.Name = "TabPage17"
-        Me.TabPage17.Size = New System.Drawing.Size(590, 393)
+        Me.TabPage17.Size = New System.Drawing.Size(590, 345)
         Me.TabPage17.TabIndex = 14
         Me.TabPage17.Text = "15"
         Me.TabPage17.UseVisualStyleBackColor = True
         '
         'TabPage18
         '
-        Me.TabPage18.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage18.Location = New System.Drawing.Point(4, 73)
         Me.TabPage18.Name = "TabPage18"
-        Me.TabPage18.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage18.Size = New System.Drawing.Size(590, 345)
         Me.TabPage18.TabIndex = 15
         Me.TabPage18.Text = "16"
         Me.TabPage18.UseVisualStyleBackColor = True
         '
         'TabPage19
         '
-        Me.TabPage19.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage19.Location = New System.Drawing.Point(4, 73)
         Me.TabPage19.Name = "TabPage19"
-        Me.TabPage19.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage19.Size = New System.Drawing.Size(590, 345)
         Me.TabPage19.TabIndex = 16
         Me.TabPage19.Text = "17"
         Me.TabPage19.UseVisualStyleBackColor = True
         '
         'TabPage20
         '
-        Me.TabPage20.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage20.Location = New System.Drawing.Point(4, 73)
         Me.TabPage20.Name = "TabPage20"
-        Me.TabPage20.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage20.Size = New System.Drawing.Size(590, 345)
         Me.TabPage20.TabIndex = 17
         Me.TabPage20.Text = "18"
         Me.TabPage20.UseVisualStyleBackColor = True
         '
         'TabPage21
         '
-        Me.TabPage21.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage21.Location = New System.Drawing.Point(4, 73)
         Me.TabPage21.Name = "TabPage21"
-        Me.TabPage21.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage21.Size = New System.Drawing.Size(590, 345)
         Me.TabPage21.TabIndex = 18
         Me.TabPage21.Text = "19"
         Me.TabPage21.UseVisualStyleBackColor = True
         '
         'TabPage22
         '
-        Me.TabPage22.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage22.Location = New System.Drawing.Point(4, 73)
         Me.TabPage22.Name = "TabPage22"
-        Me.TabPage22.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage22.Size = New System.Drawing.Size(590, 345)
         Me.TabPage22.TabIndex = 19
         Me.TabPage22.Text = "20"
         Me.TabPage22.UseVisualStyleBackColor = True
         '
         'TabPage23
         '
-        Me.TabPage23.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage23.Location = New System.Drawing.Point(4, 73)
         Me.TabPage23.Name = "TabPage23"
-        Me.TabPage23.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage23.Size = New System.Drawing.Size(590, 345)
         Me.TabPage23.TabIndex = 20
         Me.TabPage23.Text = "21"
         Me.TabPage23.UseVisualStyleBackColor = True
         '
         'TabPage24
         '
-        Me.TabPage24.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage24.Location = New System.Drawing.Point(4, 73)
         Me.TabPage24.Name = "TabPage24"
-        Me.TabPage24.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage24.Size = New System.Drawing.Size(590, 345)
         Me.TabPage24.TabIndex = 21
         Me.TabPage24.Text = "22"
         Me.TabPage24.UseVisualStyleBackColor = True
         '
         'TabPage25
         '
-        Me.TabPage25.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage25.Location = New System.Drawing.Point(4, 73)
         Me.TabPage25.Name = "TabPage25"
-        Me.TabPage25.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage25.Size = New System.Drawing.Size(590, 345)
         Me.TabPage25.TabIndex = 22
         Me.TabPage25.Text = "23"
         Me.TabPage25.UseVisualStyleBackColor = True
         '
         'TabPage26
         '
-        Me.TabPage26.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage26.Location = New System.Drawing.Point(4, 73)
         Me.TabPage26.Name = "TabPage26"
-        Me.TabPage26.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage26.Size = New System.Drawing.Size(590, 345)
         Me.TabPage26.TabIndex = 23
         Me.TabPage26.Text = "24"
         Me.TabPage26.UseVisualStyleBackColor = True
         '
         'TabPage27
         '
-        Me.TabPage27.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage27.Location = New System.Drawing.Point(4, 73)
         Me.TabPage27.Name = "TabPage27"
-        Me.TabPage27.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage27.Size = New System.Drawing.Size(590, 345)
         Me.TabPage27.TabIndex = 24
         Me.TabPage27.Text = "25"
         Me.TabPage27.UseVisualStyleBackColor = True
         '
         'TabPage28
         '
-        Me.TabPage28.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage28.Location = New System.Drawing.Point(4, 73)
         Me.TabPage28.Name = "TabPage28"
-        Me.TabPage28.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage28.Size = New System.Drawing.Size(590, 345)
         Me.TabPage28.TabIndex = 25
         Me.TabPage28.Text = "26"
         Me.TabPage28.UseVisualStyleBackColor = True
         '
         'TabPage29
         '
-        Me.TabPage29.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage29.Location = New System.Drawing.Point(4, 73)
         Me.TabPage29.Name = "TabPage29"
-        Me.TabPage29.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage29.Size = New System.Drawing.Size(590, 345)
         Me.TabPage29.TabIndex = 26
         Me.TabPage29.Text = "27"
         Me.TabPage29.UseVisualStyleBackColor = True
         '
         'TabPage30
         '
-        Me.TabPage30.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage30.Location = New System.Drawing.Point(4, 73)
         Me.TabPage30.Name = "TabPage30"
-        Me.TabPage30.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage30.Size = New System.Drawing.Size(590, 345)
         Me.TabPage30.TabIndex = 27
         Me.TabPage30.Text = "28"
         Me.TabPage30.UseVisualStyleBackColor = True
         '
         'TabPage31
         '
-        Me.TabPage31.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage31.Location = New System.Drawing.Point(4, 73)
         Me.TabPage31.Name = "TabPage31"
-        Me.TabPage31.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage31.Size = New System.Drawing.Size(590, 345)
         Me.TabPage31.TabIndex = 28
         Me.TabPage31.Text = "29"
         Me.TabPage31.UseVisualStyleBackColor = True
         '
         'TabPage32
         '
-        Me.TabPage32.Location = New System.Drawing.Point(4, 49)
+        Me.TabPage32.Location = New System.Drawing.Point(4, 73)
         Me.TabPage32.Name = "TabPage32"
-        Me.TabPage32.Size = New System.Drawing.Size(590, 369)
+        Me.TabPage32.Size = New System.Drawing.Size(590, 345)
         Me.TabPage32.TabIndex = 29
         Me.TabPage32.Text = "30"
         Me.TabPage32.UseVisualStyleBackColor = True
@@ -534,6 +538,17 @@ Partial Class fm_Main
         Me.TabPage2.Text = "45"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'Panel_IMGemblem1
+        '
+        Me.Panel_IMGemblem1.BackColor = System.Drawing.Color.Maroon
+        Me.Panel_IMGemblem1.BackgroundImage = CType(resources.GetObject("Panel_IMGemblem1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_IMGemblem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_IMGemblem1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_IMGemblem1.Location = New System.Drawing.Point(3, 3)
+        Me.Panel_IMGemblem1.Name = "Panel_IMGemblem1"
+        Me.Panel_IMGemblem1.Size = New System.Drawing.Size(119, 99)
+        Me.Panel_IMGemblem1.TabIndex = 0
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -546,6 +561,7 @@ Partial Class fm_Main
         Me.ShowInTaskbar = False
         Me.Text = "ISS Missionen"
         Me.TabControl1.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -595,5 +611,6 @@ Partial Class fm_Main
     Friend WithEvents TabPage45 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents Panel_IMGemblem1 As System.Windows.Forms.Panel
 
 End Class
