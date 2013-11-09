@@ -73,6 +73,8 @@ Partial Class fm_Main
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
@@ -136,6 +138,8 @@ Partial Class fm_Main
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Label4)
+        Me.TabPage3.Controls.Add(Me.Label3)
         Me.TabPage3.Controls.Add(Me.Label2)
         Me.TabPage3.Controls.Add(Me.Label1)
         Me.TabPage3.Controls.Add(Me.Panel1)
@@ -582,6 +586,24 @@ Partial Class fm_Main
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(258, 29)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(321, 13)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Aufenthalt: 136,80 Tage von 2. November 2000 bis 18. März 2001"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(258, 42)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(123, 13)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "Landung: 21. März 2001"
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -649,5 +671,7 @@ Partial Class fm_Main
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 
 End Class
