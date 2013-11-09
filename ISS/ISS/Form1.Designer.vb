@@ -70,6 +70,7 @@ Partial Class fm_Main
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
@@ -133,6 +134,7 @@ Partial Class fm_Main
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Panel1)
         Me.TabPage3.Controls.Add(Me.Panel_IMGemblem1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 73)
         Me.TabPage3.Name = "TabPage3"
@@ -549,6 +551,15 @@ Partial Class fm_Main
         Me.Panel_IMGemblem1.Size = New System.Drawing.Size(119, 99)
         Me.Panel_IMGemblem1.TabIndex = 0
         '
+        'Panel1
+        '
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel1.Location = New System.Drawing.Point(124, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(127, 100)
+        Me.Panel1.TabIndex = 1
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -612,5 +623,6 @@ Partial Class fm_Main
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents Panel_IMGemblem1 As System.Windows.Forms.Panel
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
 
 End Class
