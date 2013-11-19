@@ -228,10 +228,11 @@ Partial Class fm_Main
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(217, 3)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(370, 26)
+        Me.Label5.Size = New System.Drawing.Size(332, 52)
         Me.Label5.TabIndex = 2
-        Me.Label5.Text = "Mitglieder: Kent V. Rominger; Rick Husband; Daniel T. Barry;" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                   " & _
-    " Tamara E. Jernigan; Ellen Ochoa; Julie Payette; Waleri Tokarew"
+        Me.Label5.Text = "Mitglieder: Juri Ussatschow; Susan Helms; James Voss" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 8. März 2001 in eine" & _
+    "r STS-102" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 136,80 Tage (vom 2. November 2000 bis 18. März 2001)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La" & _
+    "ndung: 22. August 2001"
         '
         'Panel3
         '
