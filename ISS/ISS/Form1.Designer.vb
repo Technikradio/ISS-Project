@@ -25,7 +25,15 @@ Partial Class fm_Main
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(fm_Main))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
@@ -69,14 +77,7 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -154,8 +155,65 @@ Partial Class fm_Main
         Me.TabPage3.Text = "1"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(258, 42)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(123, 13)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "Landung: 21. März 2001"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(258, 29)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(321, 13)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Aufenthalt: 136,80 Tage von 2. November 2000 bis 18. März 2001"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(258, 16)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(218, 13)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(258, 3)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(291, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Mitglieder: William Shepherd, Juri Gidsenko, Sergei Krikaljow"
+        '
+        'Panel1
+        '
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel1.Location = New System.Drawing.Point(124, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(127, 100)
+        Me.Panel1.TabIndex = 1
+        '
+        'Panel_IMGemblem1
+        '
+        Me.Panel_IMGemblem1.BackColor = System.Drawing.Color.Maroon
+        Me.Panel_IMGemblem1.BackgroundImage = CType(resources.GetObject("Panel_IMGemblem1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_IMGemblem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_IMGemblem1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_IMGemblem1.Location = New System.Drawing.Point(3, 3)
+        Me.Panel_IMGemblem1.Name = "Panel_IMGemblem1"
+        Me.Panel_IMGemblem1.Size = New System.Drawing.Size(119, 99)
+        Me.Panel_IMGemblem1.TabIndex = 0
+        '
         'TabPage4
         '
+        Me.TabPage4.Controls.Add(Me.Label5)
         Me.TabPage4.Controls.Add(Me.Panel3)
         Me.TabPage4.Controls.Add(Me.Panel2)
         Me.TabPage4.Location = New System.Drawing.Point(4, 73)
@@ -164,6 +222,26 @@ Partial Class fm_Main
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "2"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Transparent
+        Me.Panel3.BackgroundImage = CType(resources.GetObject("Panel3.BackgroundImage"), System.Drawing.Image)
+        Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel3.Location = New System.Drawing.Point(3, 3)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(75, 100)
+        Me.Panel3.TabIndex = 1
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Maroon
+        Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
+        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel2.Location = New System.Drawing.Point(84, 3)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(127, 100)
+        Me.Panel2.TabIndex = 0
         '
         'TabPage5
         '
@@ -553,81 +631,14 @@ Partial Class fm_Main
         Me.TabPage2.Text = "45"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Panel_IMGemblem1
+        'Label5
         '
-        Me.Panel_IMGemblem1.BackColor = System.Drawing.Color.Maroon
-        Me.Panel_IMGemblem1.BackgroundImage = CType(resources.GetObject("Panel_IMGemblem1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel_IMGemblem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel_IMGemblem1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel_IMGemblem1.Location = New System.Drawing.Point(3, 3)
-        Me.Panel_IMGemblem1.Name = "Panel_IMGemblem1"
-        Me.Panel_IMGemblem1.Size = New System.Drawing.Size(119, 99)
-        Me.Panel_IMGemblem1.TabIndex = 0
-        '
-        'Panel1
-        '
-        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel1.Location = New System.Drawing.Point(124, 3)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(127, 100)
-        Me.Panel1.TabIndex = 1
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(258, 3)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(291, 13)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Mitglieder: William Shepherd, Juri Gidsenko, Sergei Krikaljow"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(258, 16)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(218, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(258, 29)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(321, 13)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Aufenthalt: 136,80 Tage von 2. November 2000 bis 18. März 2001"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(258, 42)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(123, 13)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Landung: 21. März 2001"
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.Maroon
-        Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.Location = New System.Drawing.Point(84, 3)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(127, 100)
-        Me.Panel2.TabIndex = 0
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.Transparent
-        Me.Panel3.BackgroundImage = CType(resources.GetObject("Panel3.BackgroundImage"), System.Drawing.Image)
-        Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel3.Location = New System.Drawing.Point(3, 3)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(75, 100)
-        Me.Panel3.TabIndex = 1
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(337, 131)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(81, 13)
+        Me.Label5.TabIndex = 2
+        Me.Label5.Text = "Das ist ein label"
         '
         'fm_Main
         '
@@ -644,6 +655,7 @@ Partial Class fm_Main
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -701,5 +713,6 @@ Partial Class fm_Main
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 
 End Class
