@@ -32,6 +32,7 @@ Partial Class fm_Main
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel_IMGemblem1 = New System.Windows.Forms.Panel()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
@@ -77,7 +78,6 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -222,6 +222,16 @@ Partial Class fm_Main
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "2"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(217, 3)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(294, 26)
+        Me.Label5.TabIndex = 2
+        Me.Label5.Text = "Mitglieder: Kent V. Rominger; Rick Husband; Daniel T. Barry;" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                   " & _
+    " Tamara E. Jernigan; Ellen Ochoa"
         '
         'Panel3
         '
@@ -630,15 +640,6 @@ Partial Class fm_Main
         Me.TabPage2.TabIndex = 44
         Me.TabPage2.Text = "45"
         Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(337, 131)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(81, 13)
-        Me.Label5.TabIndex = 2
-        Me.Label5.Text = "Das ist ein label"
         '
         'fm_Main
         '
