@@ -84,11 +84,15 @@ Partial Class fm_Main
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.TabPage5.SuspendLayout()
         Me.TabPage6.SuspendLayout()
+        Me.TabPage7.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -308,6 +312,9 @@ Partial Class fm_Main
         '
         'TabPage7
         '
+        Me.TabPage7.Controls.Add(Me.Label8)
+        Me.TabPage7.Controls.Add(Me.Panel8)
+        Me.TabPage7.Controls.Add(Me.Panel9)
         Me.TabPage7.Location = New System.Drawing.Point(4, 73)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Size = New System.Drawing.Size(590, 345)
@@ -692,11 +699,11 @@ Partial Class fm_Main
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(248, 3)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(254, 65)
+        Me.Label7.Size = New System.Drawing.Size(327, 52)
         Me.Label7.TabIndex = 7
         Me.Label7.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Dezember 2001" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
-    "Auffenthalt: 189,77 Tage" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(vom 7. Dezember 2001 bis 15. Juni 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 19." & _
-    " Juni 2002"
+    "Auffenthalt: 189,77 Tage (vom 7. Dezember 2001 bis 15. Juni 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 19. " & _
+    "Juni 2002"
         '
         'Panel6
         '
@@ -718,6 +725,37 @@ Partial Class fm_Main
         Me.Panel7.Size = New System.Drawing.Size(119, 99)
         Me.Panel7.TabIndex = 5
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(249, 3)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(321, 52)
+        Me.Label8.TabIndex = 10
+        Me.Label8.Text = "Mitglieder: Waleri Korsun; Sergei Treschtschow; Peggy Whitson" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Juni 200" & _
+    "2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 178,15 Tage (vom 7. Juni 2002 bis 2. Dezember 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 7." & _
+    " Dezember 2002"
+        '
+        'Panel8
+        '
+        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
+        Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel8.Location = New System.Drawing.Point(124, 3)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(127, 100)
+        Me.Panel8.TabIndex = 9
+        '
+        'Panel9
+        '
+        Me.Panel9.BackColor = System.Drawing.Color.Maroon
+        Me.Panel9.BackgroundImage = CType(resources.GetObject("Panel9.BackgroundImage"), System.Drawing.Image)
+        Me.Panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Location = New System.Drawing.Point(3, 3)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(119, 99)
+        Me.Panel9.TabIndex = 8
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -738,6 +776,8 @@ Partial Class fm_Main
         Me.TabPage5.PerformLayout()
         Me.TabPage6.ResumeLayout(False)
         Me.TabPage6.PerformLayout()
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabPage7.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -802,5 +842,8 @@ Partial Class fm_Main
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
     Friend WithEvents Panel7 As System.Windows.Forms.Panel
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Panel8 As System.Windows.Forms.Panel
+    Friend WithEvents Panel9 As System.Windows.Forms.Panel
 
 End Class
