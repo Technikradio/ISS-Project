@@ -87,12 +87,16 @@ Partial Class fm_Main
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Panel11 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.TabPage5.SuspendLayout()
         Me.TabPage6.SuspendLayout()
         Me.TabPage7.SuspendLayout()
+        Me.TabPage8.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -324,6 +328,9 @@ Partial Class fm_Main
         '
         'TabPage8
         '
+        Me.TabPage8.Controls.Add(Me.Label9)
+        Me.TabPage8.Controls.Add(Me.Panel10)
+        Me.TabPage8.Controls.Add(Me.Panel11)
         Me.TabPage8.Location = New System.Drawing.Point(4, 73)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Size = New System.Drawing.Size(590, 345)
@@ -756,6 +763,37 @@ Partial Class fm_Main
         Me.Panel9.Size = New System.Drawing.Size(119, 99)
         Me.Panel9.TabIndex = 8
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(248, 3)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(326, 52)
+        Me.Label9.TabIndex = 13
+        Me.Label9.Text = "Mitglieder: Kenneth Bowersox;Nikolai Budarin; Donald Pettit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 24. November " & _
+    "2002" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 159,03 Tage (vom 25. November 2002 bis 3. Mai 2003)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:" & _
+    " 4. Mai 2003"
+        '
+        'Panel10
+        '
+        Me.Panel10.BackgroundImage = CType(resources.GetObject("Panel10.BackgroundImage"), System.Drawing.Image)
+        Me.Panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel10.Location = New System.Drawing.Point(123, 3)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(127, 100)
+        Me.Panel10.TabIndex = 12
+        '
+        'Panel11
+        '
+        Me.Panel11.BackColor = System.Drawing.Color.Maroon
+        Me.Panel11.BackgroundImage = CType(resources.GetObject("Panel11.BackgroundImage"), System.Drawing.Image)
+        Me.Panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Location = New System.Drawing.Point(2, 3)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(119, 99)
+        Me.Panel11.TabIndex = 11
+        '
         'fm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -778,6 +816,8 @@ Partial Class fm_Main
         Me.TabPage6.PerformLayout()
         Me.TabPage7.ResumeLayout(False)
         Me.TabPage7.PerformLayout()
+        Me.TabPage8.ResumeLayout(False)
+        Me.TabPage8.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -845,5 +885,8 @@ Partial Class fm_Main
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Panel8 As System.Windows.Forms.Panel
     Friend WithEvents Panel9 As System.Windows.Forms.Panel
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Panel10 As System.Windows.Forms.Panel
+    Friend WithEvents Panel11 As System.Windows.Forms.Panel
 
 End Class
