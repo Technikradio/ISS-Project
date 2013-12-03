@@ -692,11 +692,11 @@ Partial Class fm_Main
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(248, 3)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(347, 52)
+        Me.Label7.Size = New System.Drawing.Size(254, 65)
         Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Mitglieder: Waleri Korsun; Sergei Treschtschow; Peggy Whitson" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. 12. 2001" & _
-    " in einer STS-108" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 124,95 Tage (vom 12. August 2001 bis 15. Dezembe" & _
-    "r 2001)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 17. Dezember 2001"
+        Me.Label7.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Dezember 2001" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
+    "Auffenthalt: 189,77 Tage" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(vom 7. Dezember 2001 bis 15. Juni 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 19." & _
+    " Juni 2002"
         '
         'Panel6
         '
