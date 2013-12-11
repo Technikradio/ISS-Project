@@ -36,16 +36,41 @@ Partial Class fm_Main
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Panel11 = New System.Windows.Forms.Panel()
         Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Panel13 = New System.Windows.Forms.Panel()
         Me.TabPage10 = New System.Windows.Forms.TabPage()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Panel15 = New System.Windows.Forms.Panel()
         Me.TabPage11 = New System.Windows.Forms.TabPage()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Panel17 = New System.Windows.Forms.Panel()
         Me.TabPage12 = New System.Windows.Forms.TabPage()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Panel19 = New System.Windows.Forms.Panel()
         Me.TabPage13 = New System.Windows.Forms.TabPage()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.Panel21 = New System.Windows.Forms.Panel()
         Me.TabPage14 = New System.Windows.Forms.TabPage()
         Me.TabPage15 = New System.Windows.Forms.TabPage()
         Me.TabPage16 = New System.Windows.Forms.TabPage()
@@ -80,31 +105,7 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Panel17 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -117,6 +118,7 @@ Partial Class fm_Main
         Me.TabPage11.SuspendLayout()
         Me.TabPage12.SuspendLayout()
         Me.TabPage13.SuspendLayout()
+        Me.TabPage18.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -302,6 +304,17 @@ Partial Class fm_Main
         Me.TabPage5.Text = "3"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(250, 3)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(347, 52)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. 12. 2001 in ein" & _
+    "er STS-108" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 124,95 Tage (vom 12. August 2001 bis 15. Dezember 2001)" & _
+    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 17. Dezember 2001"
+        '
         'Panel4
         '
         Me.Panel4.BackgroundImage = CType(resources.GetObject("Panel4.BackgroundImage"), System.Drawing.Image)
@@ -334,6 +347,37 @@ Partial Class fm_Main
         Me.TabPage6.Text = "4"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(248, 3)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(327, 52)
+        Me.Label7.TabIndex = 7
+        Me.Label7.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Dezember 2001" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
+    "Auffenthalt: 189,77 Tage (vom 7. Dezember 2001 bis 15. Juni 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 19. " & _
+    "Juni 2002"
+        '
+        'Panel6
+        '
+        Me.Panel6.BackgroundImage = CType(resources.GetObject("Panel6.BackgroundImage"), System.Drawing.Image)
+        Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel6.Location = New System.Drawing.Point(123, 3)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(127, 100)
+        Me.Panel6.TabIndex = 6
+        '
+        'Panel7
+        '
+        Me.Panel7.BackColor = System.Drawing.Color.Maroon
+        Me.Panel7.BackgroundImage = CType(resources.GetObject("Panel7.BackgroundImage"), System.Drawing.Image)
+        Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Location = New System.Drawing.Point(2, 3)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(119, 99)
+        Me.Panel7.TabIndex = 5
+        '
         'TabPage7
         '
         Me.TabPage7.Controls.Add(Me.Label8)
@@ -345,6 +389,37 @@ Partial Class fm_Main
         Me.TabPage7.TabIndex = 4
         Me.TabPage7.Text = "5"
         Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(249, 3)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(321, 52)
+        Me.Label8.TabIndex = 10
+        Me.Label8.Text = "Mitglieder: Waleri Korsun; Sergei Treschtschow; Peggy Whitson" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Juni 200" & _
+    "2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 178,15 Tage (vom 7. Juni 2002 bis 2. Dezember 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 7." & _
+    " Dezember 2002"
+        '
+        'Panel8
+        '
+        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
+        Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel8.Location = New System.Drawing.Point(124, 3)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(127, 100)
+        Me.Panel8.TabIndex = 9
+        '
+        'Panel9
+        '
+        Me.Panel9.BackColor = System.Drawing.Color.Maroon
+        Me.Panel9.BackgroundImage = CType(resources.GetObject("Panel9.BackgroundImage"), System.Drawing.Image)
+        Me.Panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Location = New System.Drawing.Point(3, 3)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(119, 99)
+        Me.Panel9.TabIndex = 8
         '
         'TabPage8
         '
@@ -358,6 +433,37 @@ Partial Class fm_Main
         Me.TabPage8.Text = "6"
         Me.TabPage8.UseVisualStyleBackColor = True
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(248, 3)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(326, 52)
+        Me.Label9.TabIndex = 13
+        Me.Label9.Text = "Mitglieder: Kenneth Bowersox;Nikolai Budarin; Donald Pettit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 24. November " & _
+    "2002" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 159,03 Tage (vom 25. November 2002 bis 3. Mai 2003)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:" & _
+    " 4. Mai 2003"
+        '
+        'Panel10
+        '
+        Me.Panel10.BackgroundImage = CType(resources.GetObject("Panel10.BackgroundImage"), System.Drawing.Image)
+        Me.Panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel10.Location = New System.Drawing.Point(123, 3)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(127, 100)
+        Me.Panel10.TabIndex = 12
+        '
+        'Panel11
+        '
+        Me.Panel11.BackColor = System.Drawing.Color.Maroon
+        Me.Panel11.BackgroundImage = CType(resources.GetObject("Panel11.BackgroundImage"), System.Drawing.Image)
+        Me.Panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel11.Location = New System.Drawing.Point(2, 3)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(119, 99)
+        Me.Panel11.TabIndex = 11
+        '
         'TabPage9
         '
         Me.TabPage9.Controls.Add(Me.Label10)
@@ -369,6 +475,36 @@ Partial Class fm_Main
         Me.TabPage9.TabIndex = 6
         Me.TabPage9.Text = "7"
         Me.TabPage9.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(248, 3)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(324, 52)
+        Me.Label10.TabIndex = 16
+        Me.Label10.Text = "Mitglieder: Juri Malentschenko; Edward Lu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 26. April 2003" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 18" & _
+    "2,68 Tage (vom 28. April 2003 bis 27. Oktober 2003)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 28. Oktober 2003"
+        '
+        'Panel12
+        '
+        Me.Panel12.BackgroundImage = CType(resources.GetObject("Panel12.BackgroundImage"), System.Drawing.Image)
+        Me.Panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel12.Location = New System.Drawing.Point(123, 3)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(127, 100)
+        Me.Panel12.TabIndex = 15
+        '
+        'Panel13
+        '
+        Me.Panel13.BackColor = System.Drawing.Color.Maroon
+        Me.Panel13.BackgroundImage = CType(resources.GetObject("Panel13.BackgroundImage"), System.Drawing.Image)
+        Me.Panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel13.Location = New System.Drawing.Point(2, 3)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(119, 99)
+        Me.Panel13.TabIndex = 14
         '
         'TabPage10
         '
@@ -382,6 +518,37 @@ Partial Class fm_Main
         Me.TabPage10.Text = "8"
         Me.TabPage10.UseVisualStyleBackColor = True
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(257, 3)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(324, 52)
+        Me.Label11.TabIndex = 19
+        Me.Label11.Text = "Mitglieder: Michael Foale; Alexander Kaleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 18. Oktober 2003" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt" & _
+    ": 192,57 Tage (vom 20. Oktober 2003 bis 29. April 2004)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 30. April 2004" & _
+    ""
+        '
+        'Panel14
+        '
+        Me.Panel14.BackgroundImage = CType(resources.GetObject("Panel14.BackgroundImage"), System.Drawing.Image)
+        Me.Panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel14.Location = New System.Drawing.Point(124, 3)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(127, 100)
+        Me.Panel14.TabIndex = 18
+        '
+        'Panel15
+        '
+        Me.Panel15.BackColor = System.Drawing.Color.Maroon
+        Me.Panel15.BackgroundImage = CType(resources.GetObject("Panel15.BackgroundImage"), System.Drawing.Image)
+        Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel15.Location = New System.Drawing.Point(3, 3)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(119, 99)
+        Me.Panel15.TabIndex = 17
+        '
         'TabPage11
         '
         Me.TabPage11.Controls.Add(Me.Label12)
@@ -393,6 +560,36 @@ Partial Class fm_Main
         Me.TabPage11.TabIndex = 8
         Me.TabPage11.Text = "9"
         Me.TabPage11.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(257, 3)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(324, 52)
+        Me.Label12.TabIndex = 22
+        Me.Label12.Text = "Mitglieder: Gennadi Padalka; Edward Fincke" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 19. April 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 1" & _
+    "85,67 Tage (vom 21. April 2004 bis 23. Oktober 2004)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. Oktober 2004"
+        '
+        'Panel16
+        '
+        Me.Panel16.BackgroundImage = CType(resources.GetObject("Panel16.BackgroundImage"), System.Drawing.Image)
+        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel16.Location = New System.Drawing.Point(124, 3)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(127, 100)
+        Me.Panel16.TabIndex = 21
+        '
+        'Panel17
+        '
+        Me.Panel17.BackColor = System.Drawing.Color.Maroon
+        Me.Panel17.BackgroundImage = CType(resources.GetObject("Panel17.BackgroundImage"), System.Drawing.Image)
+        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel17.Location = New System.Drawing.Point(3, 3)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(119, 99)
+        Me.Panel17.TabIndex = 20
         '
         'TabPage12
         '
@@ -406,6 +603,37 @@ Partial Class fm_Main
         Me.TabPage12.Text = "10"
         Me.TabPage12.UseVisualStyleBackColor = True
         '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(256, 3)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(324, 52)
+        Me.Label13.TabIndex = 25
+        Me.Label13.Text = "Mitglieder: Leroy Chiao; Salischan Scharipow" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 14. Oktober 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthal" & _
+    "t: 192,65 Tage (vom 16. Oktober 2004 bis 24. April 2005)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. April 200" & _
+    "5"
+        '
+        'Panel18
+        '
+        Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
+        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel18.Location = New System.Drawing.Point(123, 3)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(127, 100)
+        Me.Panel18.TabIndex = 24
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.Maroon
+        Me.Panel19.BackgroundImage = CType(resources.GetObject("Panel19.BackgroundImage"), System.Drawing.Image)
+        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel19.Location = New System.Drawing.Point(2, 3)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(119, 99)
+        Me.Panel19.TabIndex = 23
+        '
         'TabPage13
         '
         Me.TabPage13.Controls.Add(Me.Label14)
@@ -417,6 +645,37 @@ Partial Class fm_Main
         Me.TabPage13.TabIndex = 10
         Me.TabPage13.Text = "11"
         Me.TabPage13.UseVisualStyleBackColor = True
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(258, 3)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(324, 52)
+        Me.Label14.TabIndex = 28
+        Me.Label14.Text = "Mitglieder: Leroy Chiao; Salischan Scharipow" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 14. Oktober 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthal" & _
+    "t: 192,65 Tage (vom 16. Oktober 2004 bis 24. April 2005)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. April 200" & _
+    "5"
+        '
+        'Panel20
+        '
+        Me.Panel20.BackgroundImage = CType(resources.GetObject("Panel20.BackgroundImage"), System.Drawing.Image)
+        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel20.Location = New System.Drawing.Point(125, 3)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(127, 100)
+        Me.Panel20.TabIndex = 27
+        '
+        'Panel21
+        '
+        Me.Panel21.BackColor = System.Drawing.Color.Maroon
+        Me.Panel21.BackgroundImage = CType(resources.GetObject("Panel21.BackgroundImage"), System.Drawing.Image)
+        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel21.Location = New System.Drawing.Point(4, 3)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(119, 99)
+        Me.Panel21.TabIndex = 26
         '
         'TabPage14
         '
@@ -456,6 +715,7 @@ Partial Class fm_Main
         '
         'TabPage18
         '
+        Me.TabPage18.Controls.Add(Me.Label15)
         Me.TabPage18.Location = New System.Drawing.Point(4, 73)
         Me.TabPage18.Name = "TabPage18"
         Me.TabPage18.Size = New System.Drawing.Size(590, 345)
@@ -725,262 +985,14 @@ Partial Class fm_Main
         Me.TabPage2.Text = "45"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label6
+        'Label15
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(250, 3)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(347, 52)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. 12. 2001 in ein" & _
-    "er STS-108" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 124,95 Tage (vom 12. August 2001 bis 15. Dezember 2001)" & _
-    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 17. Dezember 2001"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(248, 3)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(327, 52)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Mitglieder: Juri Onufrijenko; Daniel Bursch; Carl Walz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Dezember 2001" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
-    "Auffenthalt: 189,77 Tage (vom 7. Dezember 2001 bis 15. Juni 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 19. " & _
-    "Juni 2002"
-        '
-        'Panel6
-        '
-        Me.Panel6.BackgroundImage = CType(resources.GetObject("Panel6.BackgroundImage"), System.Drawing.Image)
-        Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel6.Location = New System.Drawing.Point(123, 3)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(127, 100)
-        Me.Panel6.TabIndex = 6
-        '
-        'Panel7
-        '
-        Me.Panel7.BackColor = System.Drawing.Color.Maroon
-        Me.Panel7.BackgroundImage = CType(resources.GetObject("Panel7.BackgroundImage"), System.Drawing.Image)
-        Me.Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Location = New System.Drawing.Point(2, 3)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(119, 99)
-        Me.Panel7.TabIndex = 5
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(249, 3)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(321, 52)
-        Me.Label8.TabIndex = 10
-        Me.Label8.Text = "Mitglieder: Waleri Korsun; Sergei Treschtschow; Peggy Whitson" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 5. Juni 200" & _
-    "2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 178,15 Tage (vom 7. Juni 2002 bis 2. Dezember 2002)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 7." & _
-    " Dezember 2002"
-        '
-        'Panel8
-        '
-        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
-        Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel8.Location = New System.Drawing.Point(124, 3)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(127, 100)
-        Me.Panel8.TabIndex = 9
-        '
-        'Panel9
-        '
-        Me.Panel9.BackColor = System.Drawing.Color.Maroon
-        Me.Panel9.BackgroundImage = CType(resources.GetObject("Panel9.BackgroundImage"), System.Drawing.Image)
-        Me.Panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Location = New System.Drawing.Point(3, 3)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(119, 99)
-        Me.Panel9.TabIndex = 8
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(248, 3)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(326, 52)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "Mitglieder: Kenneth Bowersox;Nikolai Budarin; Donald Pettit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 24. November " & _
-    "2002" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 159,03 Tage (vom 25. November 2002 bis 3. Mai 2003)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:" & _
-    " 4. Mai 2003"
-        '
-        'Panel10
-        '
-        Me.Panel10.BackgroundImage = CType(resources.GetObject("Panel10.BackgroundImage"), System.Drawing.Image)
-        Me.Panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel10.Location = New System.Drawing.Point(123, 3)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(127, 100)
-        Me.Panel10.TabIndex = 12
-        '
-        'Panel11
-        '
-        Me.Panel11.BackColor = System.Drawing.Color.Maroon
-        Me.Panel11.BackgroundImage = CType(resources.GetObject("Panel11.BackgroundImage"), System.Drawing.Image)
-        Me.Panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel11.Location = New System.Drawing.Point(2, 3)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(119, 99)
-        Me.Panel11.TabIndex = 11
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(248, 3)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(324, 52)
-        Me.Label10.TabIndex = 16
-        Me.Label10.Text = "Mitglieder: Juri Malentschenko; Edward Lu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 26. April 2003" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 18" & _
-    "2,68 Tage (vom 28. April 2003 bis 27. Oktober 2003)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 28. Oktober 2003"
-        '
-        'Panel12
-        '
-        Me.Panel12.BackgroundImage = CType(resources.GetObject("Panel12.BackgroundImage"), System.Drawing.Image)
-        Me.Panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel12.Location = New System.Drawing.Point(123, 3)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(127, 100)
-        Me.Panel12.TabIndex = 15
-        '
-        'Panel13
-        '
-        Me.Panel13.BackColor = System.Drawing.Color.Maroon
-        Me.Panel13.BackgroundImage = CType(resources.GetObject("Panel13.BackgroundImage"), System.Drawing.Image)
-        Me.Panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel13.Location = New System.Drawing.Point(2, 3)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(119, 99)
-        Me.Panel13.TabIndex = 14
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(257, 3)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(324, 52)
-        Me.Label11.TabIndex = 19
-        Me.Label11.Text = "Mitglieder: Michael Foale; Alexander Kaleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 18. Oktober 2003" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt" & _
-    ": 192,57 Tage (vom 20. Oktober 2003 bis 29. April 2004)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 30. April 2004" & _
-    ""
-        '
-        'Panel14
-        '
-        Me.Panel14.BackgroundImage = CType(resources.GetObject("Panel14.BackgroundImage"), System.Drawing.Image)
-        Me.Panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel14.Location = New System.Drawing.Point(124, 3)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(127, 100)
-        Me.Panel14.TabIndex = 18
-        '
-        'Panel15
-        '
-        Me.Panel15.BackColor = System.Drawing.Color.Maroon
-        Me.Panel15.BackgroundImage = CType(resources.GetObject("Panel15.BackgroundImage"), System.Drawing.Image)
-        Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel15.Location = New System.Drawing.Point(3, 3)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(119, 99)
-        Me.Panel15.TabIndex = 17
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(257, 3)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(324, 52)
-        Me.Label12.TabIndex = 22
-        Me.Label12.Text = "Mitglieder: Gennadi Padalka; Edward Fincke" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 19. April 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 1" & _
-    "85,67 Tage (vom 21. April 2004 bis 23. Oktober 2004)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. Oktober 2004"
-        '
-        'Panel16
-        '
-        Me.Panel16.BackgroundImage = CType(resources.GetObject("Panel16.BackgroundImage"), System.Drawing.Image)
-        Me.Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel16.Location = New System.Drawing.Point(124, 3)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(127, 100)
-        Me.Panel16.TabIndex = 21
-        '
-        'Panel17
-        '
-        Me.Panel17.BackColor = System.Drawing.Color.Maroon
-        Me.Panel17.BackgroundImage = CType(resources.GetObject("Panel17.BackgroundImage"), System.Drawing.Image)
-        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel17.Location = New System.Drawing.Point(3, 3)
-        Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(119, 99)
-        Me.Panel17.TabIndex = 20
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(256, 3)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(324, 52)
-        Me.Label13.TabIndex = 25
-        Me.Label13.Text = "Mitglieder: Leroy Chiao; Salischan Scharipow" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 14. Oktober 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthal" & _
-    "t: 192,65 Tage (vom 16. Oktober 2004 bis 24. April 2005)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. April 200" & _
-    "5"
-        '
-        'Panel18
-        '
-        Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
-        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel18.Location = New System.Drawing.Point(123, 3)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(127, 100)
-        Me.Panel18.TabIndex = 24
-        '
-        'Panel19
-        '
-        Me.Panel19.BackColor = System.Drawing.Color.Maroon
-        Me.Panel19.BackgroundImage = CType(resources.GetObject("Panel19.BackgroundImage"), System.Drawing.Image)
-        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel19.Location = New System.Drawing.Point(2, 3)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(119, 99)
-        Me.Panel19.TabIndex = 23
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(258, 3)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(324, 52)
-        Me.Label14.TabIndex = 28
-        Me.Label14.Text = "Mitglieder: Leroy Chiao; Salischan Scharipow" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 14. Oktober 2004" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthal" & _
-    "t: 192,65 Tage (vom 16. Oktober 2004 bis 24. April 2005)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. April 200" & _
-    "5"
-        '
-        'Panel20
-        '
-        Me.Panel20.BackgroundImage = CType(resources.GetObject("Panel20.BackgroundImage"), System.Drawing.Image)
-        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel20.Location = New System.Drawing.Point(125, 3)
-        Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(127, 100)
-        Me.Panel20.TabIndex = 27
-        '
-        'Panel21
-        '
-        Me.Panel21.BackColor = System.Drawing.Color.Maroon
-        Me.Panel21.BackgroundImage = CType(resources.GetObject("Panel21.BackgroundImage"), System.Drawing.Image)
-        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel21.Location = New System.Drawing.Point(4, 3)
-        Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(119, 99)
-        Me.Panel21.TabIndex = 26
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(186, 166)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(218, 13)
+        Me.Label15.TabIndex = 4
+        Me.Label15.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
         '
         'fm_Main
         '
@@ -1016,6 +1028,8 @@ Partial Class fm_Main
         Me.TabPage12.PerformLayout()
         Me.TabPage13.ResumeLayout(False)
         Me.TabPage13.PerformLayout()
+        Me.TabPage18.ResumeLayout(False)
+        Me.TabPage18.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1101,5 +1115,6 @@ Partial Class fm_Main
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Panel20 As System.Windows.Forms.Panel
     Friend WithEvents Panel21 As System.Windows.Forms.Panel
+    Friend WithEvents Label15 As System.Windows.Forms.Label
 
 End Class
