@@ -76,6 +76,7 @@ Partial Class fm_Main
         Me.TabPage16 = New System.Windows.Forms.TabPage()
         Me.TabPage17 = New System.Windows.Forms.TabPage()
         Me.TabPage18 = New System.Windows.Forms.TabPage()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.TabPage19 = New System.Windows.Forms.TabPage()
         Me.TabPage20 = New System.Windows.Forms.TabPage()
         Me.TabPage21 = New System.Windows.Forms.TabPage()
@@ -105,7 +106,12 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Panel24 = New System.Windows.Forms.Panel()
+        Me.Panel25 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -118,6 +124,8 @@ Partial Class fm_Main
         Me.TabPage11.SuspendLayout()
         Me.TabPage12.SuspendLayout()
         Me.TabPage13.SuspendLayout()
+        Me.TabPage14.SuspendLayout()
+        Me.TabPage15.SuspendLayout()
         Me.TabPage18.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -679,6 +687,9 @@ Partial Class fm_Main
         '
         'TabPage14
         '
+        Me.TabPage14.Controls.Add(Me.Label16)
+        Me.TabPage14.Controls.Add(Me.Panel22)
+        Me.TabPage14.Controls.Add(Me.Panel23)
         Me.TabPage14.Location = New System.Drawing.Point(4, 73)
         Me.TabPage14.Name = "TabPage14"
         Me.TabPage14.Size = New System.Drawing.Size(590, 345)
@@ -688,6 +699,9 @@ Partial Class fm_Main
         '
         'TabPage15
         '
+        Me.TabPage15.Controls.Add(Me.Label17)
+        Me.TabPage15.Controls.Add(Me.Panel24)
+        Me.TabPage15.Controls.Add(Me.Panel25)
         Me.TabPage15.Location = New System.Drawing.Point(4, 73)
         Me.TabPage15.Name = "TabPage15"
         Me.TabPage15.Size = New System.Drawing.Size(590, 345)
@@ -722,6 +736,15 @@ Partial Class fm_Main
         Me.TabPage18.TabIndex = 15
         Me.TabPage18.Text = "16"
         Me.TabPage18.UseVisualStyleBackColor = True
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(186, 166)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(218, 13)
+        Me.Label15.TabIndex = 4
+        Me.Label15.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
         '
         'TabPage19
         '
@@ -985,14 +1008,66 @@ Partial Class fm_Main
         Me.TabPage2.Text = "45"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label15
+        'Label16
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(186, 166)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(218, 13)
-        Me.Label15.TabIndex = 4
-        Me.Label15.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(258, 3)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(312, 52)
+        Me.Label16.TabIndex = 31
+        Me.Label16.Text = "Mitglieder: William McArthur Waleri, Tokarew" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 1. Oktober 2005" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt" & _
+    ": 187,63 Tage (vom 3. Oktober 2005 bis 8. April 2006)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 8. April 2006"
+        '
+        'Panel22
+        '
+        Me.Panel22.BackgroundImage = CType(resources.GetObject("Panel22.BackgroundImage"), System.Drawing.Image)
+        Me.Panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel22.Location = New System.Drawing.Point(125, 3)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(127, 100)
+        Me.Panel22.TabIndex = 30
+        '
+        'Panel23
+        '
+        Me.Panel23.BackColor = System.Drawing.Color.Maroon
+        Me.Panel23.BackgroundImage = CType(resources.GetObject("Panel23.BackgroundImage"), System.Drawing.Image)
+        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel23.Location = New System.Drawing.Point(4, 3)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(119, 99)
+        Me.Panel23.TabIndex = 29
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(258, 3)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(331, 52)
+        Me.Label17.TabIndex = 34
+        Me.Label17.Text = "Mitglieder: Pawel Winogradow, Jeffrey Williams, Thomas Reiter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 30. März 20" & _
+    "06" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Auffenthalt: 180,73 Tage (vom 1. April 2006 bis 28. September 2006)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung" & _
+    ": 29. September 2006"
+        '
+        'Panel24
+        '
+        Me.Panel24.BackgroundImage = CType(resources.GetObject("Panel24.BackgroundImage"), System.Drawing.Image)
+        Me.Panel24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel24.Location = New System.Drawing.Point(125, 3)
+        Me.Panel24.Name = "Panel24"
+        Me.Panel24.Size = New System.Drawing.Size(127, 100)
+        Me.Panel24.TabIndex = 33
+        '
+        'Panel25
+        '
+        Me.Panel25.BackColor = System.Drawing.Color.Maroon
+        Me.Panel25.BackgroundImage = CType(resources.GetObject("Panel25.BackgroundImage"), System.Drawing.Image)
+        Me.Panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel25.Location = New System.Drawing.Point(4, 3)
+        Me.Panel25.Name = "Panel25"
+        Me.Panel25.Size = New System.Drawing.Size(119, 99)
+        Me.Panel25.TabIndex = 32
         '
         'fm_Main
         '
@@ -1028,6 +1103,10 @@ Partial Class fm_Main
         Me.TabPage12.PerformLayout()
         Me.TabPage13.ResumeLayout(False)
         Me.TabPage13.PerformLayout()
+        Me.TabPage14.ResumeLayout(False)
+        Me.TabPage14.PerformLayout()
+        Me.TabPage15.ResumeLayout(False)
+        Me.TabPage15.PerformLayout()
         Me.TabPage18.ResumeLayout(False)
         Me.TabPage18.PerformLayout()
         Me.ResumeLayout(False)
@@ -1116,5 +1195,11 @@ Partial Class fm_Main
     Friend WithEvents Panel20 As System.Windows.Forms.Panel
     Friend WithEvents Panel21 As System.Windows.Forms.Panel
     Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Panel22 As System.Windows.Forms.Panel
+    Friend WithEvents Panel23 As System.Windows.Forms.Panel
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Panel24 As System.Windows.Forms.Panel
+    Friend WithEvents Panel25 As System.Windows.Forms.Panel
 
 End Class
