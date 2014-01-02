@@ -84,8 +84,10 @@ Partial Class fm_Main
         Me.Panel26 = New System.Windows.Forms.Panel()
         Me.Panel27 = New System.Windows.Forms.Panel()
         Me.TabPage17 = New System.Windows.Forms.TabPage()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.Panel29 = New System.Windows.Forms.Panel()
         Me.TabPage18 = New System.Windows.Forms.TabPage()
-        Me.Label15 = New System.Windows.Forms.Label()
         Me.TabPage19 = New System.Windows.Forms.TabPage()
         Me.TabPage20 = New System.Windows.Forms.TabPage()
         Me.TabPage21 = New System.Windows.Forms.TabPage()
@@ -115,9 +117,21 @@ Partial Class fm_Main
         Me.TabPage45 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Panel28 = New System.Windows.Forms.Panel()
-        Me.Panel29 = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -135,6 +149,20 @@ Partial Class fm_Main
         Me.TabPage16.SuspendLayout()
         Me.TabPage17.SuspendLayout()
         Me.TabPage18.SuspendLayout()
+        Me.TabPage19.SuspendLayout()
+        Me.TabPage20.SuspendLayout()
+        Me.TabPage21.SuspendLayout()
+        Me.TabPage22.SuspendLayout()
+        Me.TabPage23.SuspendLayout()
+        Me.TabPage24.SuspendLayout()
+        Me.TabPage25.SuspendLayout()
+        Me.TabPage26.SuspendLayout()
+        Me.TabPage27.SuspendLayout()
+        Me.TabPage28.SuspendLayout()
+        Me.TabPage29.SuspendLayout()
+        Me.TabPage30.SuspendLayout()
+        Me.TabPage31.SuspendLayout()
+        Me.TabPage32.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -204,7 +232,7 @@ Partial Class fm_Main
         Me.TabPage3.Controls.Add(Me.Panel_IMGemblem1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 73)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage3.Size = New System.Drawing.Size(597, 345)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "1"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -272,7 +300,7 @@ Partial Class fm_Main
         Me.TabPage4.Controls.Add(Me.Panel2)
         Me.TabPage4.Location = New System.Drawing.Point(4, 73)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage4.Size = New System.Drawing.Size(597, 345)
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "2"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -315,7 +343,7 @@ Partial Class fm_Main
         Me.TabPage5.Controls.Add(Me.Panel5)
         Me.TabPage5.Location = New System.Drawing.Point(4, 73)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage5.Size = New System.Drawing.Size(597, 345)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "3"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -358,7 +386,7 @@ Partial Class fm_Main
         Me.TabPage6.Controls.Add(Me.Panel7)
         Me.TabPage6.Location = New System.Drawing.Point(4, 73)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage6.Size = New System.Drawing.Size(597, 345)
         Me.TabPage6.TabIndex = 3
         Me.TabPage6.Text = "4"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -401,7 +429,7 @@ Partial Class fm_Main
         Me.TabPage7.Controls.Add(Me.Panel9)
         Me.TabPage7.Location = New System.Drawing.Point(4, 73)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage7.Size = New System.Drawing.Size(597, 345)
         Me.TabPage7.TabIndex = 4
         Me.TabPage7.Text = "5"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -444,7 +472,7 @@ Partial Class fm_Main
         Me.TabPage8.Controls.Add(Me.Panel11)
         Me.TabPage8.Location = New System.Drawing.Point(4, 73)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage8.Size = New System.Drawing.Size(597, 345)
         Me.TabPage8.TabIndex = 5
         Me.TabPage8.Text = "6"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -487,7 +515,7 @@ Partial Class fm_Main
         Me.TabPage9.Controls.Add(Me.Panel13)
         Me.TabPage9.Location = New System.Drawing.Point(4, 73)
         Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage9.Size = New System.Drawing.Size(597, 345)
         Me.TabPage9.TabIndex = 6
         Me.TabPage9.Text = "7"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -529,7 +557,7 @@ Partial Class fm_Main
         Me.TabPage10.Controls.Add(Me.Panel15)
         Me.TabPage10.Location = New System.Drawing.Point(4, 73)
         Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage10.Size = New System.Drawing.Size(597, 345)
         Me.TabPage10.TabIndex = 7
         Me.TabPage10.Text = "8"
         Me.TabPage10.UseVisualStyleBackColor = True
@@ -572,7 +600,7 @@ Partial Class fm_Main
         Me.TabPage11.Controls.Add(Me.Panel17)
         Me.TabPage11.Location = New System.Drawing.Point(4, 73)
         Me.TabPage11.Name = "TabPage11"
-        Me.TabPage11.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage11.Size = New System.Drawing.Size(597, 345)
         Me.TabPage11.TabIndex = 8
         Me.TabPage11.Text = "9"
         Me.TabPage11.UseVisualStyleBackColor = True
@@ -614,7 +642,7 @@ Partial Class fm_Main
         Me.TabPage12.Controls.Add(Me.Panel19)
         Me.TabPage12.Location = New System.Drawing.Point(4, 73)
         Me.TabPage12.Name = "TabPage12"
-        Me.TabPage12.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage12.Size = New System.Drawing.Size(597, 345)
         Me.TabPage12.TabIndex = 9
         Me.TabPage12.Text = "10"
         Me.TabPage12.UseVisualStyleBackColor = True
@@ -657,7 +685,7 @@ Partial Class fm_Main
         Me.TabPage13.Controls.Add(Me.Panel21)
         Me.TabPage13.Location = New System.Drawing.Point(4, 73)
         Me.TabPage13.Name = "TabPage13"
-        Me.TabPage13.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage13.Size = New System.Drawing.Size(597, 345)
         Me.TabPage13.TabIndex = 10
         Me.TabPage13.Text = "11"
         Me.TabPage13.UseVisualStyleBackColor = True
@@ -700,7 +728,7 @@ Partial Class fm_Main
         Me.TabPage14.Controls.Add(Me.Panel23)
         Me.TabPage14.Location = New System.Drawing.Point(4, 73)
         Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage14.Size = New System.Drawing.Size(597, 345)
         Me.TabPage14.TabIndex = 11
         Me.TabPage14.Text = "12"
         Me.TabPage14.UseVisualStyleBackColor = True
@@ -742,7 +770,7 @@ Partial Class fm_Main
         Me.TabPage15.Controls.Add(Me.Panel25)
         Me.TabPage15.Location = New System.Drawing.Point(4, 73)
         Me.TabPage15.Name = "TabPage15"
-        Me.TabPage15.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage15.Size = New System.Drawing.Size(597, 345)
         Me.TabPage15.TabIndex = 12
         Me.TabPage15.Text = "13"
         Me.TabPage15.UseVisualStyleBackColor = True
@@ -785,7 +813,7 @@ Partial Class fm_Main
         Me.TabPage16.Controls.Add(Me.Panel27)
         Me.TabPage16.Location = New System.Drawing.Point(4, 73)
         Me.TabPage16.Name = "TabPage16"
-        Me.TabPage16.Size = New System.Drawing.Size(590, 345)
+        Me.TabPage16.Size = New System.Drawing.Size(597, 345)
         Me.TabPage16.TabIndex = 13
         Me.TabPage16.Text = "14"
         Me.TabPage16.UseVisualStyleBackColor = True
@@ -833,287 +861,6 @@ Partial Class fm_Main
         Me.TabPage17.Text = "15"
         Me.TabPage17.UseVisualStyleBackColor = True
         '
-        'TabPage18
-        '
-        Me.TabPage18.Controls.Add(Me.Label15)
-        Me.TabPage18.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage18.Name = "TabPage18"
-        Me.TabPage18.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage18.TabIndex = 15
-        Me.TabPage18.Text = "16"
-        Me.TabPage18.UseVisualStyleBackColor = True
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(186, 166)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(218, 13)
-        Me.Label15.TabIndex = 4
-        Me.Label15.Text = "Start: 31. Oktober 2000 in einer Sojus TM-31"
-        '
-        'TabPage19
-        '
-        Me.TabPage19.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage19.Name = "TabPage19"
-        Me.TabPage19.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage19.TabIndex = 16
-        Me.TabPage19.Text = "17"
-        Me.TabPage19.UseVisualStyleBackColor = True
-        '
-        'TabPage20
-        '
-        Me.TabPage20.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage20.Name = "TabPage20"
-        Me.TabPage20.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage20.TabIndex = 17
-        Me.TabPage20.Text = "18"
-        Me.TabPage20.UseVisualStyleBackColor = True
-        '
-        'TabPage21
-        '
-        Me.TabPage21.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage21.Name = "TabPage21"
-        Me.TabPage21.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage21.TabIndex = 18
-        Me.TabPage21.Text = "19"
-        Me.TabPage21.UseVisualStyleBackColor = True
-        '
-        'TabPage22
-        '
-        Me.TabPage22.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage22.Name = "TabPage22"
-        Me.TabPage22.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage22.TabIndex = 19
-        Me.TabPage22.Text = "20"
-        Me.TabPage22.UseVisualStyleBackColor = True
-        '
-        'TabPage23
-        '
-        Me.TabPage23.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage23.Name = "TabPage23"
-        Me.TabPage23.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage23.TabIndex = 20
-        Me.TabPage23.Text = "21"
-        Me.TabPage23.UseVisualStyleBackColor = True
-        '
-        'TabPage24
-        '
-        Me.TabPage24.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage24.Name = "TabPage24"
-        Me.TabPage24.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage24.TabIndex = 21
-        Me.TabPage24.Text = "22"
-        Me.TabPage24.UseVisualStyleBackColor = True
-        '
-        'TabPage25
-        '
-        Me.TabPage25.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage25.Name = "TabPage25"
-        Me.TabPage25.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage25.TabIndex = 22
-        Me.TabPage25.Text = "23"
-        Me.TabPage25.UseVisualStyleBackColor = True
-        '
-        'TabPage26
-        '
-        Me.TabPage26.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage26.Name = "TabPage26"
-        Me.TabPage26.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage26.TabIndex = 23
-        Me.TabPage26.Text = "24"
-        Me.TabPage26.UseVisualStyleBackColor = True
-        '
-        'TabPage27
-        '
-        Me.TabPage27.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage27.Name = "TabPage27"
-        Me.TabPage27.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage27.TabIndex = 24
-        Me.TabPage27.Text = "25"
-        Me.TabPage27.UseVisualStyleBackColor = True
-        '
-        'TabPage28
-        '
-        Me.TabPage28.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage28.Name = "TabPage28"
-        Me.TabPage28.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage28.TabIndex = 25
-        Me.TabPage28.Text = "26"
-        Me.TabPage28.UseVisualStyleBackColor = True
-        '
-        'TabPage29
-        '
-        Me.TabPage29.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage29.Name = "TabPage29"
-        Me.TabPage29.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage29.TabIndex = 26
-        Me.TabPage29.Text = "27"
-        Me.TabPage29.UseVisualStyleBackColor = True
-        '
-        'TabPage30
-        '
-        Me.TabPage30.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage30.Name = "TabPage30"
-        Me.TabPage30.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage30.TabIndex = 27
-        Me.TabPage30.Text = "28"
-        Me.TabPage30.UseVisualStyleBackColor = True
-        '
-        'TabPage31
-        '
-        Me.TabPage31.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage31.Name = "TabPage31"
-        Me.TabPage31.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage31.TabIndex = 28
-        Me.TabPage31.Text = "29"
-        Me.TabPage31.UseVisualStyleBackColor = True
-        '
-        'TabPage32
-        '
-        Me.TabPage32.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage32.Name = "TabPage32"
-        Me.TabPage32.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage32.TabIndex = 29
-        Me.TabPage32.Text = "30"
-        Me.TabPage32.UseVisualStyleBackColor = True
-        '
-        'TabPage33
-        '
-        Me.TabPage33.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage33.Name = "TabPage33"
-        Me.TabPage33.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage33.TabIndex = 30
-        Me.TabPage33.Text = "31"
-        Me.TabPage33.UseVisualStyleBackColor = True
-        '
-        'TabPage34
-        '
-        Me.TabPage34.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage34.Name = "TabPage34"
-        Me.TabPage34.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage34.TabIndex = 31
-        Me.TabPage34.Text = "32"
-        Me.TabPage34.UseVisualStyleBackColor = True
-        '
-        'TabPage35
-        '
-        Me.TabPage35.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage35.Name = "TabPage35"
-        Me.TabPage35.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage35.TabIndex = 32
-        Me.TabPage35.Text = "33"
-        Me.TabPage35.UseVisualStyleBackColor = True
-        '
-        'TabPage36
-        '
-        Me.TabPage36.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage36.Name = "TabPage36"
-        Me.TabPage36.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage36.TabIndex = 33
-        Me.TabPage36.Text = "34"
-        Me.TabPage36.UseVisualStyleBackColor = True
-        '
-        'TabPage37
-        '
-        Me.TabPage37.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage37.Name = "TabPage37"
-        Me.TabPage37.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage37.TabIndex = 34
-        Me.TabPage37.Text = "35"
-        Me.TabPage37.UseVisualStyleBackColor = True
-        '
-        'TabPage38
-        '
-        Me.TabPage38.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage38.Name = "TabPage38"
-        Me.TabPage38.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage38.TabIndex = 35
-        Me.TabPage38.Text = "36"
-        Me.TabPage38.UseVisualStyleBackColor = True
-        '
-        'TabPage39
-        '
-        Me.TabPage39.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage39.Name = "TabPage39"
-        Me.TabPage39.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage39.TabIndex = 36
-        Me.TabPage39.Text = "37"
-        Me.TabPage39.UseVisualStyleBackColor = True
-        '
-        'TabPage40
-        '
-        Me.TabPage40.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage40.Name = "TabPage40"
-        Me.TabPage40.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage40.TabIndex = 37
-        Me.TabPage40.Text = "38"
-        Me.TabPage40.UseVisualStyleBackColor = True
-        '
-        'TabPage41
-        '
-        Me.TabPage41.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage41.Name = "TabPage41"
-        Me.TabPage41.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage41.TabIndex = 38
-        Me.TabPage41.Text = "39"
-        Me.TabPage41.UseVisualStyleBackColor = True
-        '
-        'TabPage42
-        '
-        Me.TabPage42.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage42.Name = "TabPage42"
-        Me.TabPage42.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage42.TabIndex = 39
-        Me.TabPage42.Text = "40"
-        Me.TabPage42.UseVisualStyleBackColor = True
-        '
-        'TabPage43
-        '
-        Me.TabPage43.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage43.Name = "TabPage43"
-        Me.TabPage43.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage43.TabIndex = 40
-        Me.TabPage43.Text = "41"
-        Me.TabPage43.UseVisualStyleBackColor = True
-        '
-        'TabPage44
-        '
-        Me.TabPage44.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage44.Name = "TabPage44"
-        Me.TabPage44.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage44.TabIndex = 41
-        Me.TabPage44.Text = "42"
-        Me.TabPage44.UseVisualStyleBackColor = True
-        '
-        'TabPage45
-        '
-        Me.TabPage45.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage45.Name = "TabPage45"
-        Me.TabPage45.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage45.TabIndex = 42
-        Me.TabPage45.Text = "43"
-        Me.TabPage45.UseVisualStyleBackColor = True
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage1.TabIndex = 43
-        Me.TabPage1.Text = "44"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Location = New System.Drawing.Point(4, 73)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Size = New System.Drawing.Size(590, 345)
-        Me.TabPage2.TabIndex = 44
-        Me.TabPage2.Text = "45"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
         'Label19
         '
         Me.Label19.AutoSize = True
@@ -1144,6 +891,437 @@ Partial Class fm_Main
         Me.Panel29.Name = "Panel29"
         Me.Panel29.Size = New System.Drawing.Size(119, 99)
         Me.Panel29.TabIndex = 38
+        '
+        'TabPage18
+        '
+        Me.TabPage18.Controls.Add(Me.Label15)
+        Me.TabPage18.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage18.Name = "TabPage18"
+        Me.TabPage18.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage18.TabIndex = 15
+        Me.TabPage18.Text = "16"
+        Me.TabPage18.UseVisualStyleBackColor = True
+        '
+        'TabPage19
+        '
+        Me.TabPage19.Controls.Add(Me.Label20)
+        Me.TabPage19.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage19.Name = "TabPage19"
+        Me.TabPage19.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage19.TabIndex = 16
+        Me.TabPage19.Text = "17"
+        Me.TabPage19.UseVisualStyleBackColor = True
+        '
+        'TabPage20
+        '
+        Me.TabPage20.Controls.Add(Me.Label21)
+        Me.TabPage20.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage20.Name = "TabPage20"
+        Me.TabPage20.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage20.TabIndex = 17
+        Me.TabPage20.Text = "18"
+        Me.TabPage20.UseVisualStyleBackColor = True
+        '
+        'TabPage21
+        '
+        Me.TabPage21.Controls.Add(Me.Label22)
+        Me.TabPage21.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage21.Name = "TabPage21"
+        Me.TabPage21.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage21.TabIndex = 18
+        Me.TabPage21.Text = "19"
+        Me.TabPage21.UseVisualStyleBackColor = True
+        '
+        'TabPage22
+        '
+        Me.TabPage22.Controls.Add(Me.Label23)
+        Me.TabPage22.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage22.Name = "TabPage22"
+        Me.TabPage22.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage22.TabIndex = 19
+        Me.TabPage22.Text = "20"
+        Me.TabPage22.UseVisualStyleBackColor = True
+        '
+        'TabPage23
+        '
+        Me.TabPage23.Controls.Add(Me.Label24)
+        Me.TabPage23.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage23.Name = "TabPage23"
+        Me.TabPage23.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage23.TabIndex = 20
+        Me.TabPage23.Text = "21"
+        Me.TabPage23.UseVisualStyleBackColor = True
+        '
+        'TabPage24
+        '
+        Me.TabPage24.Controls.Add(Me.Label25)
+        Me.TabPage24.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage24.Name = "TabPage24"
+        Me.TabPage24.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage24.TabIndex = 21
+        Me.TabPage24.Text = "22"
+        Me.TabPage24.UseVisualStyleBackColor = True
+        '
+        'TabPage25
+        '
+        Me.TabPage25.Controls.Add(Me.Label26)
+        Me.TabPage25.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage25.Name = "TabPage25"
+        Me.TabPage25.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage25.TabIndex = 22
+        Me.TabPage25.Text = "23"
+        Me.TabPage25.UseVisualStyleBackColor = True
+        '
+        'TabPage26
+        '
+        Me.TabPage26.Controls.Add(Me.Label27)
+        Me.TabPage26.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage26.Name = "TabPage26"
+        Me.TabPage26.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage26.TabIndex = 23
+        Me.TabPage26.Text = "24"
+        Me.TabPage26.UseVisualStyleBackColor = True
+        '
+        'TabPage27
+        '
+        Me.TabPage27.Controls.Add(Me.Label28)
+        Me.TabPage27.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage27.Name = "TabPage27"
+        Me.TabPage27.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage27.TabIndex = 24
+        Me.TabPage27.Text = "25"
+        Me.TabPage27.UseVisualStyleBackColor = True
+        '
+        'TabPage28
+        '
+        Me.TabPage28.Controls.Add(Me.Label29)
+        Me.TabPage28.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage28.Name = "TabPage28"
+        Me.TabPage28.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage28.TabIndex = 25
+        Me.TabPage28.Text = "26"
+        Me.TabPage28.UseVisualStyleBackColor = True
+        '
+        'TabPage29
+        '
+        Me.TabPage29.Controls.Add(Me.Label30)
+        Me.TabPage29.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage29.Name = "TabPage29"
+        Me.TabPage29.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage29.TabIndex = 26
+        Me.TabPage29.Text = "27"
+        Me.TabPage29.UseVisualStyleBackColor = True
+        '
+        'TabPage30
+        '
+        Me.TabPage30.Controls.Add(Me.Label31)
+        Me.TabPage30.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage30.Name = "TabPage30"
+        Me.TabPage30.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage30.TabIndex = 27
+        Me.TabPage30.Text = "28"
+        Me.TabPage30.UseVisualStyleBackColor = True
+        '
+        'TabPage31
+        '
+        Me.TabPage31.Controls.Add(Me.Label32)
+        Me.TabPage31.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage31.Name = "TabPage31"
+        Me.TabPage31.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage31.TabIndex = 28
+        Me.TabPage31.Text = "29"
+        Me.TabPage31.UseVisualStyleBackColor = True
+        '
+        'TabPage32
+        '
+        Me.TabPage32.Controls.Add(Me.Label33)
+        Me.TabPage32.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage32.Name = "TabPage32"
+        Me.TabPage32.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage32.TabIndex = 29
+        Me.TabPage32.Text = "30"
+        Me.TabPage32.UseVisualStyleBackColor = True
+        '
+        'TabPage33
+        '
+        Me.TabPage33.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage33.Name = "TabPage33"
+        Me.TabPage33.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage33.TabIndex = 30
+        Me.TabPage33.Text = "31"
+        Me.TabPage33.UseVisualStyleBackColor = True
+        '
+        'TabPage34
+        '
+        Me.TabPage34.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage34.Name = "TabPage34"
+        Me.TabPage34.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage34.TabIndex = 31
+        Me.TabPage34.Text = "32"
+        Me.TabPage34.UseVisualStyleBackColor = True
+        '
+        'TabPage35
+        '
+        Me.TabPage35.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage35.Name = "TabPage35"
+        Me.TabPage35.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage35.TabIndex = 32
+        Me.TabPage35.Text = "33"
+        Me.TabPage35.UseVisualStyleBackColor = True
+        '
+        'TabPage36
+        '
+        Me.TabPage36.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage36.Name = "TabPage36"
+        Me.TabPage36.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage36.TabIndex = 33
+        Me.TabPage36.Text = "34"
+        Me.TabPage36.UseVisualStyleBackColor = True
+        '
+        'TabPage37
+        '
+        Me.TabPage37.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage37.Name = "TabPage37"
+        Me.TabPage37.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage37.TabIndex = 34
+        Me.TabPage37.Text = "35"
+        Me.TabPage37.UseVisualStyleBackColor = True
+        '
+        'TabPage38
+        '
+        Me.TabPage38.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage38.Name = "TabPage38"
+        Me.TabPage38.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage38.TabIndex = 35
+        Me.TabPage38.Text = "36"
+        Me.TabPage38.UseVisualStyleBackColor = True
+        '
+        'TabPage39
+        '
+        Me.TabPage39.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage39.Name = "TabPage39"
+        Me.TabPage39.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage39.TabIndex = 36
+        Me.TabPage39.Text = "37"
+        Me.TabPage39.UseVisualStyleBackColor = True
+        '
+        'TabPage40
+        '
+        Me.TabPage40.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage40.Name = "TabPage40"
+        Me.TabPage40.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage40.TabIndex = 37
+        Me.TabPage40.Text = "38"
+        Me.TabPage40.UseVisualStyleBackColor = True
+        '
+        'TabPage41
+        '
+        Me.TabPage41.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage41.Name = "TabPage41"
+        Me.TabPage41.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage41.TabIndex = 38
+        Me.TabPage41.Text = "39"
+        Me.TabPage41.UseVisualStyleBackColor = True
+        '
+        'TabPage42
+        '
+        Me.TabPage42.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage42.Name = "TabPage42"
+        Me.TabPage42.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage42.TabIndex = 39
+        Me.TabPage42.Text = "40"
+        Me.TabPage42.UseVisualStyleBackColor = True
+        '
+        'TabPage43
+        '
+        Me.TabPage43.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage43.Name = "TabPage43"
+        Me.TabPage43.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage43.TabIndex = 40
+        Me.TabPage43.Text = "41"
+        Me.TabPage43.UseVisualStyleBackColor = True
+        '
+        'TabPage44
+        '
+        Me.TabPage44.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage44.Name = "TabPage44"
+        Me.TabPage44.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage44.TabIndex = 41
+        Me.TabPage44.Text = "42"
+        Me.TabPage44.UseVisualStyleBackColor = True
+        '
+        'TabPage45
+        '
+        Me.TabPage45.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage45.Name = "TabPage45"
+        Me.TabPage45.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage45.TabIndex = 42
+        Me.TabPage45.Text = "43"
+        Me.TabPage45.UseVisualStyleBackColor = True
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage1.TabIndex = 43
+        Me.TabPage1.Text = "44"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Location = New System.Drawing.Point(4, 73)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Size = New System.Drawing.Size(597, 345)
+        Me.TabPage2.TabIndex = 44
+        Me.TabPage2.Text = "45"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(282, 0)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(315, 52)
+        Me.Label15.TabIndex = 4
+        Me.Label15.Text = "Mitglieder: Peggy Whitson, Juri Malentschenko" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 10. Oktober 2007 in einer S" & _
+    "ojus TMA-11" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 194,50 Tage vom 12. Oktober 2007 bis 19. April 2008" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La" & _
+    "ndung: 19. April 2008"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(282, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(315, 52)
+        Me.Label20.TabIndex = 6
+        Me.Label20.Text = "Mitglieder: Sergei Wolkow, Oleg Kononenko" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 8. April 2008 in einer Sojus TM" & _
+    "A-12" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 196,47 Tage vom 10. April 2008 bis 24. Oktober 2008" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: " & _
+    "24. Oktober 2008 Sojus TMA-12"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(288, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(309, 52)
+        Me.Label21.TabIndex = 6
+        Me.Label21.Text = "Mitglieder: Edward Fincke, Juri Lontschakow " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 12. Oktober 2008 in einer So" & _
+    "jus TMA-13" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 175,81 Tage vom 14. Oktober 2008 bis 8. April 2009" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Land" & _
+    "ung: 8. April 2009"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(279, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(318, 52)
+        Me.Label22.TabIndex = 6
+        Me.Label22.Text = "Mitglieder: Gennadi Padalka, Michael Barratt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 26. März 2009 in einer Sojus" & _
+    " TMA-14" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 196,50 Tage vom 28. März 2009 bis 11. Oktober 2009" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung" & _
+    ": 11. Oktober 2009"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(281, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(316, 52)
+        Me.Label23.TabIndex = 6
+        Me.Label23.Text = "Mitglieder: Gennadi Padalka, Michael Barratt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 27.Mai 2009 in einer Sojus T" & _
+    "MA-15" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 185,64 Tage vom 29. Mai 2009 bis 1. Dezember 2009" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: " & _
+    "1.Dezember 2009"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Location = New System.Drawing.Point(282, 0)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(58, 52)
+        Me.Label24.TabIndex = 5
+        Me.Label24.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(269, 146)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(58, 52)
+        Me.Label25.TabIndex = 6
+        Me.Label25.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Location = New System.Drawing.Point(269, 146)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(58, 52)
+        Me.Label26.TabIndex = 6
+        Me.Label26.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Location = New System.Drawing.Point(269, 146)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(58, 52)
+        Me.Label27.TabIndex = 6
+        Me.Label27.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Location = New System.Drawing.Point(269, 146)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(58, 52)
+        Me.Label28.TabIndex = 6
+        Me.Label28.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Location = New System.Drawing.Point(269, 146)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(58, 52)
+        Me.Label29.TabIndex = 6
+        Me.Label29.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Location = New System.Drawing.Point(269, 146)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(58, 52)
+        Me.Label30.TabIndex = 6
+        Me.Label30.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Location = New System.Drawing.Point(269, 146)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(58, 52)
+        Me.Label31.TabIndex = 6
+        Me.Label31.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Location = New System.Drawing.Point(269, 146)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(58, 52)
+        Me.Label32.TabIndex = 6
+        Me.Label32.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(269, 146)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(58, 52)
+        Me.Label33.TabIndex = 6
+        Me.Label33.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
         '
         'fm_Main
         '
@@ -1189,6 +1367,34 @@ Partial Class fm_Main
         Me.TabPage17.PerformLayout()
         Me.TabPage18.ResumeLayout(False)
         Me.TabPage18.PerformLayout()
+        Me.TabPage19.ResumeLayout(False)
+        Me.TabPage19.PerformLayout()
+        Me.TabPage20.ResumeLayout(False)
+        Me.TabPage20.PerformLayout()
+        Me.TabPage21.ResumeLayout(False)
+        Me.TabPage21.PerformLayout()
+        Me.TabPage22.ResumeLayout(False)
+        Me.TabPage22.PerformLayout()
+        Me.TabPage23.ResumeLayout(False)
+        Me.TabPage23.PerformLayout()
+        Me.TabPage24.ResumeLayout(False)
+        Me.TabPage24.PerformLayout()
+        Me.TabPage25.ResumeLayout(False)
+        Me.TabPage25.PerformLayout()
+        Me.TabPage26.ResumeLayout(False)
+        Me.TabPage26.PerformLayout()
+        Me.TabPage27.ResumeLayout(False)
+        Me.TabPage27.PerformLayout()
+        Me.TabPage28.ResumeLayout(False)
+        Me.TabPage28.PerformLayout()
+        Me.TabPage29.ResumeLayout(False)
+        Me.TabPage29.PerformLayout()
+        Me.TabPage30.ResumeLayout(False)
+        Me.TabPage30.PerformLayout()
+        Me.TabPage31.ResumeLayout(False)
+        Me.TabPage31.PerformLayout()
+        Me.TabPage32.ResumeLayout(False)
+        Me.TabPage32.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1274,7 +1480,6 @@ Partial Class fm_Main
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Panel20 As System.Windows.Forms.Panel
     Friend WithEvents Panel21 As System.Windows.Forms.Panel
-    Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Panel22 As System.Windows.Forms.Panel
     Friend WithEvents Panel23 As System.Windows.Forms.Panel
@@ -1287,5 +1492,20 @@ Partial Class fm_Main
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Panel28 As System.Windows.Forms.Panel
     Friend WithEvents Panel29 As System.Windows.Forms.Panel
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents Label24 As System.Windows.Forms.Label
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents Label26 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents Label31 As System.Windows.Forms.Label
+    Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents Label33 As System.Windows.Forms.Label
 
 End Class
