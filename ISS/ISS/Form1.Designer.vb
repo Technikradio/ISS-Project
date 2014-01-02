@@ -125,13 +125,13 @@ Partial Class fm_Main
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -1238,90 +1238,102 @@ Partial Class fm_Main
         Me.Label24.AutoSize = True
         Me.Label24.Location = New System.Drawing.Point(282, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(58, 52)
+        Me.Label24.Size = New System.Drawing.Size(312, 52)
         Me.Label24.TabIndex = 5
-        Me.Label24.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label24.Text = "Mitglieder:  Jeffrey Williams, Maxim Surajew" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 30. September 2009 in einer " & _
+    "Sojus TMA-16" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 166,98 Tage vom 2. Oktober 2009 bis 18. März 2010" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Lan" & _
+    "dung: 18. März 2010"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(269, 146)
+        Me.Label25.Location = New System.Drawing.Point(370, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(58, 52)
+        Me.Label25.Size = New System.Drawing.Size(318, 52)
         Me.Label25.TabIndex = 6
-        Me.Label25.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label25.Text = "Mitglieder:  Jeffrey Williams, Maxim Surajew " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 20. Dezember 2009 in einer " & _
+    "Sojus TMA-17 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 161,05 Tage vom 22. Dezember 2009 bis 2. Juni 2010" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "L" & _
+    "andung: 2. Juni 2010"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(269, 146)
+        Me.Label26.Location = New System.Drawing.Point(234, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(58, 52)
+        Me.Label26.Size = New System.Drawing.Size(360, 52)
         Me.Label26.TabIndex = 6
-        Me.Label26.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(269, 146)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(58, 52)
-        Me.Label27.TabIndex = 6
-        Me.Label27.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label26.Text = resources.GetString("Label26.Text")
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(269, 146)
+        Me.Label28.Location = New System.Drawing.Point(283, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(58, 52)
+        Me.Label28.Size = New System.Drawing.Size(318, 52)
         Me.Label28.TabIndex = 6
-        Me.Label28.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label28.Text = "Mitglieder:  Scott Kelly, Oleg Skripotschka, Alexander Kaleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 7. Oktober " & _
+    "2010 in einer Sojus TMA-01M" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 157,18 Tage vom 10. Oktober 2010 bis 16" & _
+    ". März 2011" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 16. März 2011"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(269, 146)
+        Me.Label29.Location = New System.Drawing.Point(306, 29)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(58, 52)
+        Me.Label29.Size = New System.Drawing.Size(322, 52)
         Me.Label29.TabIndex = 6
-        Me.Label29.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label29.Text = "Mitglieder: Dmitri Kondratjew, Catherine Coleman, Paolo Nespoli" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 15. Dezem" & _
+    "ber 2010 in einer Sojus TMA-20" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 157,06 Tage vom 17. Dezember 2010 bi" & _
+    "s 23. Mai 2011" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 24. Mai 2011"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(269, 146)
+        Me.Label30.Location = New System.Drawing.Point(259, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(58, 52)
+        Me.Label30.Size = New System.Drawing.Size(338, 52)
         Me.Label30.TabIndex = 6
-        Me.Label30.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label30.Text = resources.GetString("Label30.Text")
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(269, 146)
+        Me.Label31.Location = New System.Drawing.Point(282, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(58, 52)
+        Me.Label31.Size = New System.Drawing.Size(319, 52)
         Me.Label31.TabIndex = 6
-        Me.Label31.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label31.Text = "Mitglieder:  Mike Fossum, Sergei Wolkow, Satoshi Furukawa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 7. Juni 2011 in" & _
+    " einer Sojus TMA-02M" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 165,07 Tage vom 9. Juni 2011 bis 21. November " & _
+    "2011" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 22. November 2011"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(269, 146)
+        Me.Label32.Location = New System.Drawing.Point(271, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(58, 52)
+        Me.Label32.Size = New System.Drawing.Size(326, 52)
         Me.Label32.TabIndex = 6
-        Me.Label32.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label32.Text = resources.GetString("Label32.Text")
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(269, 146)
+        Me.Label33.Location = New System.Drawing.Point(318, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(58, 52)
+        Me.Label33.Size = New System.Drawing.Size(317, 52)
         Me.Label33.TabIndex = 6
-        Me.Label33.Text = "Mitglieder:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung:"
+        Me.Label33.Text = "Mitglieder:  Oleg Kononenko, Don Pettit, André Kuipers" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: 21. Dezember 2011 " & _
+    "in einer Sojus TMA-03M" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: 190,56 Tage vom 23. Dezember 2011 bis 1. Jul" & _
+    "i 2012 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: 1. Juli 2012"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Location = New System.Drawing.Point(265, 0)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(332, 52)
+        Me.Label27.TabIndex = 7
+        Me.Label27.Text = resources.GetString("Label27.Text")
         '
         'fm_Main
         '
@@ -1500,12 +1512,12 @@ Partial Class fm_Main
     Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents Label27 As System.Windows.Forms.Label
     Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label29 As System.Windows.Forms.Label
     Friend WithEvents Label30 As System.Windows.Forms.Label
     Friend WithEvents Label31 As System.Windows.Forms.Label
     Friend WithEvents Label32 As System.Windows.Forms.Label
     Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
 
 End Class
