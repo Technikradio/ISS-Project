@@ -112,22 +112,40 @@ Partial Class fm_Main
         Me.Panel40 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.TabPage24 = New System.Windows.Forms.TabPage()
+        Me.Panel43 = New System.Windows.Forms.Panel()
+        Me.Panel42 = New System.Windows.Forms.Panel()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.TabPage25 = New System.Windows.Forms.TabPage()
+        Me.Panel45 = New System.Windows.Forms.Panel()
+        Me.Panel44 = New System.Windows.Forms.Panel()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.TabPage26 = New System.Windows.Forms.TabPage()
+        Me.Panel47 = New System.Windows.Forms.Panel()
+        Me.Panel46 = New System.Windows.Forms.Panel()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.TabPage27 = New System.Windows.Forms.TabPage()
+        Me.Panel49 = New System.Windows.Forms.Panel()
+        Me.Panel48 = New System.Windows.Forms.Panel()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.TabPage28 = New System.Windows.Forms.TabPage()
+        Me.Panel51 = New System.Windows.Forms.Panel()
+        Me.Panel50 = New System.Windows.Forms.Panel()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.TabPage29 = New System.Windows.Forms.TabPage()
+        Me.Panel53 = New System.Windows.Forms.Panel()
+        Me.Panel52 = New System.Windows.Forms.Panel()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.TabPage30 = New System.Windows.Forms.TabPage()
+        Me.Panel55 = New System.Windows.Forms.Panel()
+        Me.Panel54 = New System.Windows.Forms.Panel()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.TabPage31 = New System.Windows.Forms.TabPage()
+        Me.Panel57 = New System.Windows.Forms.Panel()
+        Me.Panel56 = New System.Windows.Forms.Panel()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.TabPage32 = New System.Windows.Forms.TabPage()
+        Me.Panel59 = New System.Windows.Forms.Panel()
+        Me.Panel58 = New System.Windows.Forms.Panel()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.TabPage33 = New System.Windows.Forms.TabPage()
         Me.TabPage34 = New System.Windows.Forms.TabPage()
@@ -137,39 +155,27 @@ Partial Class fm_Main
         Me.TabPage38 = New System.Windows.Forms.TabPage()
         Me.TabPage39 = New System.Windows.Forms.TabPage()
         Me.TabPage40 = New System.Windows.Forms.TabPage()
+        Me.Panel61 = New System.Windows.Forms.Panel()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.TabPage41 = New System.Windows.Forms.TabPage()
+        Me.Panel63 = New System.Windows.Forms.Panel()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.TabPage42 = New System.Windows.Forms.TabPage()
+        Me.Panel65 = New System.Windows.Forms.Panel()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.TabPage43 = New System.Windows.Forms.TabPage()
+        Me.Panel67 = New System.Windows.Forms.Panel()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.TabPage44 = New System.Windows.Forms.TabPage()
+        Me.Panel69 = New System.Windows.Forms.Panel()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.TabPage45 = New System.Windows.Forms.TabPage()
+        Me.Panel71 = New System.Windows.Forms.Panel()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Label41 = New System.Windows.Forms.Label()
-        Me.Panel42 = New System.Windows.Forms.Panel()
-        Me.Panel43 = New System.Windows.Forms.Panel()
-        Me.Panel44 = New System.Windows.Forms.Panel()
-        Me.Panel45 = New System.Windows.Forms.Panel()
-        Me.Panel46 = New System.Windows.Forms.Panel()
-        Me.Panel47 = New System.Windows.Forms.Panel()
-        Me.Panel48 = New System.Windows.Forms.Panel()
-        Me.Panel49 = New System.Windows.Forms.Panel()
-        Me.Panel50 = New System.Windows.Forms.Panel()
-        Me.Panel51 = New System.Windows.Forms.Panel()
-        Me.Panel52 = New System.Windows.Forms.Panel()
-        Me.Panel53 = New System.Windows.Forms.Panel()
-        Me.Panel54 = New System.Windows.Forms.Panel()
-        Me.Panel55 = New System.Windows.Forms.Panel()
-        Me.Panel56 = New System.Windows.Forms.Panel()
-        Me.Panel57 = New System.Windows.Forms.Panel()
-        Me.Panel58 = New System.Windows.Forms.Panel()
-        Me.Panel59 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -1220,6 +1226,28 @@ Partial Class fm_Main
         Me.TabPage24.Text = "22"
         Me.TabPage24.UseVisualStyleBackColor = True
         '
+        'Panel43
+        '
+        Me.Panel43.BackColor = System.Drawing.Color.Maroon
+        Me.Panel43.BackgroundImage = CType(resources.GetObject("Panel43.BackgroundImage"), System.Drawing.Image)
+        Me.Panel43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel43.Location = New System.Drawing.Point(0, 0)
+        Me.Panel43.Name = "Panel43"
+        Me.Panel43.Size = New System.Drawing.Size(119, 99)
+        Me.Panel43.TabIndex = 6
+        '
+        'Panel42
+        '
+        Me.Panel42.BackColor = System.Drawing.Color.Maroon
+        Me.Panel42.BackgroundImage = CType(resources.GetObject("Panel42.BackgroundImage"), System.Drawing.Image)
+        Me.Panel42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel42.Location = New System.Drawing.Point(125, 0)
+        Me.Panel42.Name = "Panel42"
+        Me.Panel42.Size = New System.Drawing.Size(119, 99)
+        Me.Panel42.TabIndex = 7
+        '
         'Label25
         '
         Me.Label25.AutoSize = True
@@ -1243,6 +1271,28 @@ Partial Class fm_Main
         Me.TabPage25.Text = "23"
         Me.TabPage25.UseVisualStyleBackColor = True
         '
+        'Panel45
+        '
+        Me.Panel45.BackColor = System.Drawing.Color.Maroon
+        Me.Panel45.BackgroundImage = CType(resources.GetObject("Panel45.BackgroundImage"), System.Drawing.Image)
+        Me.Panel45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel45.Location = New System.Drawing.Point(0, 0)
+        Me.Panel45.Name = "Panel45"
+        Me.Panel45.Size = New System.Drawing.Size(119, 99)
+        Me.Panel45.TabIndex = 6
+        '
+        'Panel44
+        '
+        Me.Panel44.BackColor = System.Drawing.Color.Maroon
+        Me.Panel44.BackgroundImage = CType(resources.GetObject("Panel44.BackgroundImage"), System.Drawing.Image)
+        Me.Panel44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel44.Location = New System.Drawing.Point(125, 0)
+        Me.Panel44.Name = "Panel44"
+        Me.Panel44.Size = New System.Drawing.Size(119, 99)
+        Me.Panel44.TabIndex = 7
+        '
         'Label26
         '
         Me.Label26.AutoSize = True
@@ -1264,6 +1314,28 @@ Partial Class fm_Main
         Me.TabPage26.Text = "24"
         Me.TabPage26.UseVisualStyleBackColor = True
         '
+        'Panel47
+        '
+        Me.Panel47.BackColor = System.Drawing.Color.Maroon
+        Me.Panel47.BackgroundImage = CType(resources.GetObject("Panel47.BackgroundImage"), System.Drawing.Image)
+        Me.Panel47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel47.Location = New System.Drawing.Point(0, 0)
+        Me.Panel47.Name = "Panel47"
+        Me.Panel47.Size = New System.Drawing.Size(119, 99)
+        Me.Panel47.TabIndex = 6
+        '
+        'Panel46
+        '
+        Me.Panel46.BackColor = System.Drawing.Color.Maroon
+        Me.Panel46.BackgroundImage = CType(resources.GetObject("Panel46.BackgroundImage"), System.Drawing.Image)
+        Me.Panel46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel46.Location = New System.Drawing.Point(125, 0)
+        Me.Panel46.Name = "Panel46"
+        Me.Panel46.Size = New System.Drawing.Size(119, 99)
+        Me.Panel46.TabIndex = 8
+        '
         'Label27
         '
         Me.Label27.AutoSize = True
@@ -1284,6 +1356,28 @@ Partial Class fm_Main
         Me.TabPage27.TabIndex = 24
         Me.TabPage27.Text = "25"
         Me.TabPage27.UseVisualStyleBackColor = True
+        '
+        'Panel49
+        '
+        Me.Panel49.BackColor = System.Drawing.Color.Maroon
+        Me.Panel49.BackgroundImage = CType(resources.GetObject("Panel49.BackgroundImage"), System.Drawing.Image)
+        Me.Panel49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel49.Location = New System.Drawing.Point(0, 0)
+        Me.Panel49.Name = "Panel49"
+        Me.Panel49.Size = New System.Drawing.Size(119, 99)
+        Me.Panel49.TabIndex = 6
+        '
+        'Panel48
+        '
+        Me.Panel48.BackColor = System.Drawing.Color.Maroon
+        Me.Panel48.BackgroundImage = CType(resources.GetObject("Panel48.BackgroundImage"), System.Drawing.Image)
+        Me.Panel48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel48.Location = New System.Drawing.Point(125, 0)
+        Me.Panel48.Name = "Panel48"
+        Me.Panel48.Size = New System.Drawing.Size(119, 99)
+        Me.Panel48.TabIndex = 7
         '
         'Label28
         '
@@ -1308,6 +1402,28 @@ Partial Class fm_Main
         Me.TabPage28.Text = "26"
         Me.TabPage28.UseVisualStyleBackColor = True
         '
+        'Panel51
+        '
+        Me.Panel51.BackColor = System.Drawing.Color.Maroon
+        Me.Panel51.BackgroundImage = CType(resources.GetObject("Panel51.BackgroundImage"), System.Drawing.Image)
+        Me.Panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel51.Location = New System.Drawing.Point(0, 0)
+        Me.Panel51.Name = "Panel51"
+        Me.Panel51.Size = New System.Drawing.Size(119, 99)
+        Me.Panel51.TabIndex = 6
+        '
+        'Panel50
+        '
+        Me.Panel50.BackColor = System.Drawing.Color.Maroon
+        Me.Panel50.BackgroundImage = CType(resources.GetObject("Panel50.BackgroundImage"), System.Drawing.Image)
+        Me.Panel50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel50.Location = New System.Drawing.Point(125, 0)
+        Me.Panel50.Name = "Panel50"
+        Me.Panel50.Size = New System.Drawing.Size(119, 99)
+        Me.Panel50.TabIndex = 7
+        '
         'Label29
         '
         Me.Label29.AutoSize = True
@@ -1331,6 +1447,28 @@ Partial Class fm_Main
         Me.TabPage29.Text = "27"
         Me.TabPage29.UseVisualStyleBackColor = True
         '
+        'Panel53
+        '
+        Me.Panel53.BackColor = System.Drawing.Color.Maroon
+        Me.Panel53.BackgroundImage = CType(resources.GetObject("Panel53.BackgroundImage"), System.Drawing.Image)
+        Me.Panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel53.Location = New System.Drawing.Point(0, 0)
+        Me.Panel53.Name = "Panel53"
+        Me.Panel53.Size = New System.Drawing.Size(119, 99)
+        Me.Panel53.TabIndex = 6
+        '
+        'Panel52
+        '
+        Me.Panel52.BackColor = System.Drawing.Color.Maroon
+        Me.Panel52.BackgroundImage = CType(resources.GetObject("Panel52.BackgroundImage"), System.Drawing.Image)
+        Me.Panel52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel52.Location = New System.Drawing.Point(125, 0)
+        Me.Panel52.Name = "Panel52"
+        Me.Panel52.Size = New System.Drawing.Size(119, 99)
+        Me.Panel52.TabIndex = 7
+        '
         'Label30
         '
         Me.Label30.AutoSize = True
@@ -1351,6 +1489,28 @@ Partial Class fm_Main
         Me.TabPage30.TabIndex = 27
         Me.TabPage30.Text = "28"
         Me.TabPage30.UseVisualStyleBackColor = True
+        '
+        'Panel55
+        '
+        Me.Panel55.BackColor = System.Drawing.Color.Maroon
+        Me.Panel55.BackgroundImage = CType(resources.GetObject("Panel55.BackgroundImage"), System.Drawing.Image)
+        Me.Panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel55.Location = New System.Drawing.Point(0, 0)
+        Me.Panel55.Name = "Panel55"
+        Me.Panel55.Size = New System.Drawing.Size(119, 99)
+        Me.Panel55.TabIndex = 6
+        '
+        'Panel54
+        '
+        Me.Panel54.BackColor = System.Drawing.Color.Maroon
+        Me.Panel54.BackgroundImage = CType(resources.GetObject("Panel54.BackgroundImage"), System.Drawing.Image)
+        Me.Panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel54.Location = New System.Drawing.Point(125, 0)
+        Me.Panel54.Name = "Panel54"
+        Me.Panel54.Size = New System.Drawing.Size(119, 99)
+        Me.Panel54.TabIndex = 7
         '
         'Label31
         '
@@ -1375,6 +1535,28 @@ Partial Class fm_Main
         Me.TabPage31.Text = "29"
         Me.TabPage31.UseVisualStyleBackColor = True
         '
+        'Panel57
+        '
+        Me.Panel57.BackColor = System.Drawing.Color.Maroon
+        Me.Panel57.BackgroundImage = CType(resources.GetObject("Panel57.BackgroundImage"), System.Drawing.Image)
+        Me.Panel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel57.Location = New System.Drawing.Point(0, 0)
+        Me.Panel57.Name = "Panel57"
+        Me.Panel57.Size = New System.Drawing.Size(119, 99)
+        Me.Panel57.TabIndex = 6
+        '
+        'Panel56
+        '
+        Me.Panel56.BackColor = System.Drawing.Color.Maroon
+        Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
+        Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel56.Location = New System.Drawing.Point(125, 0)
+        Me.Panel56.Name = "Panel56"
+        Me.Panel56.Size = New System.Drawing.Size(119, 99)
+        Me.Panel56.TabIndex = 7
+        '
         'Label32
         '
         Me.Label32.AutoSize = True
@@ -1395,6 +1577,28 @@ Partial Class fm_Main
         Me.TabPage32.TabIndex = 29
         Me.TabPage32.Text = "30"
         Me.TabPage32.UseVisualStyleBackColor = True
+        '
+        'Panel59
+        '
+        Me.Panel59.BackColor = System.Drawing.Color.Maroon
+        Me.Panel59.BackgroundImage = CType(resources.GetObject("Panel59.BackgroundImage"), System.Drawing.Image)
+        Me.Panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel59.Location = New System.Drawing.Point(0, 0)
+        Me.Panel59.Name = "Panel59"
+        Me.Panel59.Size = New System.Drawing.Size(119, 99)
+        Me.Panel59.TabIndex = 6
+        '
+        'Panel58
+        '
+        Me.Panel58.BackColor = System.Drawing.Color.Maroon
+        Me.Panel58.BackgroundImage = CType(resources.GetObject("Panel58.BackgroundImage"), System.Drawing.Image)
+        Me.Panel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel58.Location = New System.Drawing.Point(125, 0)
+        Me.Panel58.Name = "Panel58"
+        Me.Panel58.Size = New System.Drawing.Size(119, 99)
+        Me.Panel58.TabIndex = 7
         '
         'Label33
         '
@@ -1472,6 +1676,7 @@ Partial Class fm_Main
         '
         'TabPage40
         '
+        Me.TabPage40.Controls.Add(Me.Panel61)
         Me.TabPage40.Controls.Add(Me.Label34)
         Me.TabPage40.Location = New System.Drawing.Point(4, 73)
         Me.TabPage40.Name = "TabPage40"
@@ -1479,6 +1684,17 @@ Partial Class fm_Main
         Me.TabPage40.TabIndex = 37
         Me.TabPage40.Text = "38"
         Me.TabPage40.UseVisualStyleBackColor = True
+        '
+        'Panel61
+        '
+        Me.Panel61.BackColor = System.Drawing.Color.Maroon
+        Me.Panel61.BackgroundImage = CType(resources.GetObject("Panel61.BackgroundImage"), System.Drawing.Image)
+        Me.Panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel61.Location = New System.Drawing.Point(0, 0)
+        Me.Panel61.Name = "Panel61"
+        Me.Panel61.Size = New System.Drawing.Size(119, 99)
+        Me.Panel61.TabIndex = 7
         '
         'Label34
         '
@@ -1491,6 +1707,7 @@ Partial Class fm_Main
         '
         'TabPage41
         '
+        Me.TabPage41.Controls.Add(Me.Panel63)
         Me.TabPage41.Controls.Add(Me.Label35)
         Me.TabPage41.Location = New System.Drawing.Point(4, 73)
         Me.TabPage41.Name = "TabPage41"
@@ -1499,10 +1716,21 @@ Partial Class fm_Main
         Me.TabPage41.Text = "39"
         Me.TabPage41.UseVisualStyleBackColor = True
         '
+        'Panel63
+        '
+        Me.Panel63.BackColor = System.Drawing.Color.Maroon
+        Me.Panel63.BackgroundImage = CType(resources.GetObject("Panel63.BackgroundImage"), System.Drawing.Image)
+        Me.Panel63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel63.Location = New System.Drawing.Point(0, 0)
+        Me.Panel63.Name = "Panel63"
+        Me.Panel63.Size = New System.Drawing.Size(119, 99)
+        Me.Panel63.TabIndex = 7
+        '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(193, 0)
+        Me.Label35.Location = New System.Drawing.Point(241, 1)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(401, 52)
         Me.Label35.TabIndex = 7
@@ -1510,6 +1738,7 @@ Partial Class fm_Main
         '
         'TabPage42
         '
+        Me.TabPage42.Controls.Add(Me.Panel65)
         Me.TabPage42.Controls.Add(Me.Label36)
         Me.TabPage42.Location = New System.Drawing.Point(4, 73)
         Me.TabPage42.Name = "TabPage42"
@@ -1517,6 +1746,17 @@ Partial Class fm_Main
         Me.TabPage42.TabIndex = 39
         Me.TabPage42.Text = "40"
         Me.TabPage42.UseVisualStyleBackColor = True
+        '
+        'Panel65
+        '
+        Me.Panel65.BackColor = System.Drawing.Color.Maroon
+        Me.Panel65.BackgroundImage = CType(resources.GetObject("Panel65.BackgroundImage"), System.Drawing.Image)
+        Me.Panel65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel65.Location = New System.Drawing.Point(0, 0)
+        Me.Panel65.Name = "Panel65"
+        Me.Panel65.Size = New System.Drawing.Size(119, 99)
+        Me.Panel65.TabIndex = 7
         '
         'Label36
         '
@@ -1529,6 +1769,7 @@ Partial Class fm_Main
         '
         'TabPage43
         '
+        Me.TabPage43.Controls.Add(Me.Panel67)
         Me.TabPage43.Controls.Add(Me.Label37)
         Me.TabPage43.Location = New System.Drawing.Point(4, 73)
         Me.TabPage43.Name = "TabPage43"
@@ -1536,6 +1777,17 @@ Partial Class fm_Main
         Me.TabPage43.TabIndex = 40
         Me.TabPage43.Text = "41"
         Me.TabPage43.UseVisualStyleBackColor = True
+        '
+        'Panel67
+        '
+        Me.Panel67.BackColor = System.Drawing.Color.Maroon
+        Me.Panel67.BackgroundImage = CType(resources.GetObject("Panel67.BackgroundImage"), System.Drawing.Image)
+        Me.Panel67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel67.Location = New System.Drawing.Point(0, 0)
+        Me.Panel67.Name = "Panel67"
+        Me.Panel67.Size = New System.Drawing.Size(119, 99)
+        Me.Panel67.TabIndex = 7
         '
         'Label37
         '
@@ -1548,6 +1800,7 @@ Partial Class fm_Main
         '
         'TabPage44
         '
+        Me.TabPage44.Controls.Add(Me.Panel69)
         Me.TabPage44.Controls.Add(Me.Label38)
         Me.TabPage44.Location = New System.Drawing.Point(4, 73)
         Me.TabPage44.Name = "TabPage44"
@@ -1555,6 +1808,17 @@ Partial Class fm_Main
         Me.TabPage44.TabIndex = 41
         Me.TabPage44.Text = "42"
         Me.TabPage44.UseVisualStyleBackColor = True
+        '
+        'Panel69
+        '
+        Me.Panel69.BackColor = System.Drawing.Color.Maroon
+        Me.Panel69.BackgroundImage = CType(resources.GetObject("Panel69.BackgroundImage"), System.Drawing.Image)
+        Me.Panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel69.Location = New System.Drawing.Point(0, 0)
+        Me.Panel69.Name = "Panel69"
+        Me.Panel69.Size = New System.Drawing.Size(119, 99)
+        Me.Panel69.TabIndex = 7
         '
         'Label38
         '
@@ -1567,6 +1831,7 @@ Partial Class fm_Main
         '
         'TabPage45
         '
+        Me.TabPage45.Controls.Add(Me.Panel71)
         Me.TabPage45.Controls.Add(Me.Label39)
         Me.TabPage45.Location = New System.Drawing.Point(4, 73)
         Me.TabPage45.Name = "TabPage45"
@@ -1574,6 +1839,17 @@ Partial Class fm_Main
         Me.TabPage45.TabIndex = 42
         Me.TabPage45.Text = "43"
         Me.TabPage45.UseVisualStyleBackColor = True
+        '
+        'Panel71
+        '
+        Me.Panel71.BackColor = System.Drawing.Color.Maroon
+        Me.Panel71.BackgroundImage = CType(resources.GetObject("Panel71.BackgroundImage"), System.Drawing.Image)
+        Me.Panel71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel71.Location = New System.Drawing.Point(0, 0)
+        Me.Panel71.Name = "Panel71"
+        Me.Panel71.Size = New System.Drawing.Size(119, 99)
+        Me.Panel71.TabIndex = 7
         '
         'Label39
         '
@@ -1622,204 +1898,6 @@ Partial Class fm_Main
         Me.Label41.Size = New System.Drawing.Size(61, 52)
         Me.Label41.TabIndex = 7
         Me.Label41.Text = "Mitglieder: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: "
-        '
-        'Panel42
-        '
-        Me.Panel42.BackColor = System.Drawing.Color.Maroon
-        Me.Panel42.BackgroundImage = CType(resources.GetObject("Panel42.BackgroundImage"), System.Drawing.Image)
-        Me.Panel42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel42.Location = New System.Drawing.Point(125, 0)
-        Me.Panel42.Name = "Panel42"
-        Me.Panel42.Size = New System.Drawing.Size(119, 99)
-        Me.Panel42.TabIndex = 7
-        '
-        'Panel43
-        '
-        Me.Panel43.BackColor = System.Drawing.Color.Maroon
-        Me.Panel43.BackgroundImage = CType(resources.GetObject("Panel43.BackgroundImage"), System.Drawing.Image)
-        Me.Panel43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel43.Location = New System.Drawing.Point(0, 0)
-        Me.Panel43.Name = "Panel43"
-        Me.Panel43.Size = New System.Drawing.Size(119, 99)
-        Me.Panel43.TabIndex = 6
-        '
-        'Panel44
-        '
-        Me.Panel44.BackColor = System.Drawing.Color.Maroon
-        Me.Panel44.BackgroundImage = CType(resources.GetObject("Panel44.BackgroundImage"), System.Drawing.Image)
-        Me.Panel44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel44.Location = New System.Drawing.Point(125, 0)
-        Me.Panel44.Name = "Panel44"
-        Me.Panel44.Size = New System.Drawing.Size(119, 99)
-        Me.Panel44.TabIndex = 7
-        '
-        'Panel45
-        '
-        Me.Panel45.BackColor = System.Drawing.Color.Maroon
-        Me.Panel45.BackgroundImage = CType(resources.GetObject("Panel45.BackgroundImage"), System.Drawing.Image)
-        Me.Panel45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel45.Location = New System.Drawing.Point(0, 0)
-        Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(119, 99)
-        Me.Panel45.TabIndex = 6
-        '
-        'Panel46
-        '
-        Me.Panel46.BackColor = System.Drawing.Color.Maroon
-        Me.Panel46.BackgroundImage = CType(resources.GetObject("Panel46.BackgroundImage"), System.Drawing.Image)
-        Me.Panel46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel46.Location = New System.Drawing.Point(125, 0)
-        Me.Panel46.Name = "Panel46"
-        Me.Panel46.Size = New System.Drawing.Size(119, 99)
-        Me.Panel46.TabIndex = 8
-        '
-        'Panel47
-        '
-        Me.Panel47.BackColor = System.Drawing.Color.Maroon
-        Me.Panel47.BackgroundImage = CType(resources.GetObject("Panel47.BackgroundImage"), System.Drawing.Image)
-        Me.Panel47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel47.Location = New System.Drawing.Point(0, 0)
-        Me.Panel47.Name = "Panel47"
-        Me.Panel47.Size = New System.Drawing.Size(119, 99)
-        Me.Panel47.TabIndex = 6
-        '
-        'Panel48
-        '
-        Me.Panel48.BackColor = System.Drawing.Color.Maroon
-        Me.Panel48.BackgroundImage = CType(resources.GetObject("Panel48.BackgroundImage"), System.Drawing.Image)
-        Me.Panel48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel48.Location = New System.Drawing.Point(125, 0)
-        Me.Panel48.Name = "Panel48"
-        Me.Panel48.Size = New System.Drawing.Size(119, 99)
-        Me.Panel48.TabIndex = 7
-        '
-        'Panel49
-        '
-        Me.Panel49.BackColor = System.Drawing.Color.Maroon
-        Me.Panel49.BackgroundImage = CType(resources.GetObject("Panel49.BackgroundImage"), System.Drawing.Image)
-        Me.Panel49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel49.Location = New System.Drawing.Point(0, 0)
-        Me.Panel49.Name = "Panel49"
-        Me.Panel49.Size = New System.Drawing.Size(119, 99)
-        Me.Panel49.TabIndex = 6
-        '
-        'Panel50
-        '
-        Me.Panel50.BackColor = System.Drawing.Color.Maroon
-        Me.Panel50.BackgroundImage = CType(resources.GetObject("Panel50.BackgroundImage"), System.Drawing.Image)
-        Me.Panel50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel50.Location = New System.Drawing.Point(125, 0)
-        Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(119, 99)
-        Me.Panel50.TabIndex = 7
-        '
-        'Panel51
-        '
-        Me.Panel51.BackColor = System.Drawing.Color.Maroon
-        Me.Panel51.BackgroundImage = CType(resources.GetObject("Panel51.BackgroundImage"), System.Drawing.Image)
-        Me.Panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel51.Location = New System.Drawing.Point(0, 0)
-        Me.Panel51.Name = "Panel51"
-        Me.Panel51.Size = New System.Drawing.Size(119, 99)
-        Me.Panel51.TabIndex = 6
-        '
-        'Panel52
-        '
-        Me.Panel52.BackColor = System.Drawing.Color.Maroon
-        Me.Panel52.BackgroundImage = CType(resources.GetObject("Panel52.BackgroundImage"), System.Drawing.Image)
-        Me.Panel52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel52.Location = New System.Drawing.Point(125, 0)
-        Me.Panel52.Name = "Panel52"
-        Me.Panel52.Size = New System.Drawing.Size(119, 99)
-        Me.Panel52.TabIndex = 7
-        '
-        'Panel53
-        '
-        Me.Panel53.BackColor = System.Drawing.Color.Maroon
-        Me.Panel53.BackgroundImage = CType(resources.GetObject("Panel53.BackgroundImage"), System.Drawing.Image)
-        Me.Panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel53.Location = New System.Drawing.Point(0, 0)
-        Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(119, 99)
-        Me.Panel53.TabIndex = 6
-        '
-        'Panel54
-        '
-        Me.Panel54.BackColor = System.Drawing.Color.Maroon
-        Me.Panel54.BackgroundImage = CType(resources.GetObject("Panel54.BackgroundImage"), System.Drawing.Image)
-        Me.Panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel54.Location = New System.Drawing.Point(125, 0)
-        Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(119, 99)
-        Me.Panel54.TabIndex = 7
-        '
-        'Panel55
-        '
-        Me.Panel55.BackColor = System.Drawing.Color.Maroon
-        Me.Panel55.BackgroundImage = CType(resources.GetObject("Panel55.BackgroundImage"), System.Drawing.Image)
-        Me.Panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel55.Location = New System.Drawing.Point(0, 0)
-        Me.Panel55.Name = "Panel55"
-        Me.Panel55.Size = New System.Drawing.Size(119, 99)
-        Me.Panel55.TabIndex = 6
-        '
-        'Panel56
-        '
-        Me.Panel56.BackColor = System.Drawing.Color.Maroon
-        Me.Panel56.BackgroundImage = CType(resources.GetObject("Panel56.BackgroundImage"), System.Drawing.Image)
-        Me.Panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel56.Location = New System.Drawing.Point(125, 0)
-        Me.Panel56.Name = "Panel56"
-        Me.Panel56.Size = New System.Drawing.Size(119, 99)
-        Me.Panel56.TabIndex = 7
-        '
-        'Panel57
-        '
-        Me.Panel57.BackColor = System.Drawing.Color.Maroon
-        Me.Panel57.BackgroundImage = CType(resources.GetObject("Panel57.BackgroundImage"), System.Drawing.Image)
-        Me.Panel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel57.Location = New System.Drawing.Point(0, 0)
-        Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(119, 99)
-        Me.Panel57.TabIndex = 6
-        '
-        'Panel58
-        '
-        Me.Panel58.BackColor = System.Drawing.Color.Maroon
-        Me.Panel58.BackgroundImage = CType(resources.GetObject("Panel58.BackgroundImage"), System.Drawing.Image)
-        Me.Panel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel58.Location = New System.Drawing.Point(125, 0)
-        Me.Panel58.Name = "Panel58"
-        Me.Panel58.Size = New System.Drawing.Size(119, 99)
-        Me.Panel58.TabIndex = 7
-        '
-        'Panel59
-        '
-        Me.Panel59.BackColor = System.Drawing.Color.Maroon
-        Me.Panel59.BackgroundImage = CType(resources.GetObject("Panel59.BackgroundImage"), System.Drawing.Image)
-        Me.Panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel59.Location = New System.Drawing.Point(0, 0)
-        Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(119, 99)
-        Me.Panel59.TabIndex = 6
         '
         'fm_Main
         '
@@ -2059,5 +2137,11 @@ Partial Class fm_Main
     Friend WithEvents Panel56 As System.Windows.Forms.Panel
     Friend WithEvents Panel59 As System.Windows.Forms.Panel
     Friend WithEvents Panel58 As System.Windows.Forms.Panel
+    Friend WithEvents Panel61 As System.Windows.Forms.Panel
+    Friend WithEvents Panel63 As System.Windows.Forms.Panel
+    Friend WithEvents Panel65 As System.Windows.Forms.Panel
+    Friend WithEvents Panel67 As System.Windows.Forms.Panel
+    Friend WithEvents Panel69 As System.Windows.Forms.Panel
+    Friend WithEvents Panel71 As System.Windows.Forms.Panel
 
 End Class
