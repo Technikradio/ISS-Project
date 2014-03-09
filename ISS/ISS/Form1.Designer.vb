@@ -197,6 +197,9 @@ Partial Class fm_Main
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Label41 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.PToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TabControl1.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -243,6 +246,7 @@ Partial Class fm_Main
         Me.TabPage45.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -1962,7 +1966,7 @@ Partial Class fm_Main
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(297, 0)
+        Me.Label34.Location = New System.Drawing.Point(125, 0)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(300, 65)
         Me.Label34.TabIndex = 5
@@ -1972,6 +1976,7 @@ Partial Class fm_Main
         '
         Me.TabPage41.Controls.Add(Me.Panel63)
         Me.TabPage41.Controls.Add(Me.Label35)
+        Me.TabPage41.Controls.Add(Me.MenuStrip1)
         Me.TabPage41.Location = New System.Drawing.Point(4, 73)
         Me.TabPage41.Name = "TabPage41"
         Me.TabPage41.Size = New System.Drawing.Size(597, 345)
@@ -1993,7 +1998,7 @@ Partial Class fm_Main
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(241, 1)
+        Me.Label35.Location = New System.Drawing.Point(125, 0)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(401, 52)
         Me.Label35.TabIndex = 7
@@ -2024,7 +2029,7 @@ Partial Class fm_Main
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(274, 0)
+        Me.Label36.Location = New System.Drawing.Point(113, 1)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(300, 65)
         Me.Label36.TabIndex = 7
@@ -2117,11 +2122,11 @@ Partial Class fm_Main
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(342, 0)
+        Me.Label39.Location = New System.Drawing.Point(244, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(61, 52)
+        Me.Label39.Size = New System.Drawing.Size(345, 65)
         Me.Label39.TabIndex = 7
-        Me.Label39.Text = "Mitglieder: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: "
+        Me.Label39.Text = resources.GetString("Label39.Text")
         '
         'TabPage1
         '
@@ -2137,11 +2142,11 @@ Partial Class fm_Main
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(268, 146)
+        Me.Label40.Location = New System.Drawing.Point(220, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(61, 52)
+        Me.Label40.Size = New System.Drawing.Size(377, 65)
         Me.Label40.TabIndex = 7
-        Me.Label40.Text = "Mitglieder: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: "
+        Me.Label40.Text = resources.GetString("Label40.Text")
         '
         'TabPage2
         '
@@ -2156,11 +2161,36 @@ Partial Class fm_Main
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(268, 146)
+        Me.Label41.Location = New System.Drawing.Point(309, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(61, 52)
+        Me.Label41.Size = New System.Drawing.Size(288, 65)
         Me.Label41.TabIndex = 7
-        Me.Label41.Text = "Mitglieder: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Start: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Aufenthalt: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Landung: "
+        Me.Label41.Text = resources.GetString("Label41.Text")
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.MenuStrip1.Dock = System.Windows.Forms.DockStyle.None
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(20, 106)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(126, 24)
+        Me.MenuStrip1.TabIndex = 8
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'PToolStripMenuItem
+        '
+        Me.PToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AToolStripMenuItem})
+        Me.PToolStripMenuItem.Name = "PToolStripMenuItem"
+        Me.PToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
+        Me.PToolStripMenuItem.Text = "p"
+        '
+        'AToolStripMenuItem
+        '
+        Me.AToolStripMenuItem.Name = "AToolStripMenuItem"
+        Me.AToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Q), System.Windows.Forms.Keys)
+        Me.AToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AToolStripMenuItem.Text = "a"
         '
         'fm_Main
         '
@@ -2264,6 +2294,8 @@ Partial Class fm_Main
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2441,5 +2473,8 @@ Partial Class fm_Main
     Friend WithEvents Label48 As System.Windows.Forms.Label
     Friend WithEvents Panel78 As System.Windows.Forms.Panel
     Friend WithEvents Panel79 As System.Windows.Forms.Panel
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents PToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

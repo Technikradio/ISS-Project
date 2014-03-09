@@ -20,6 +20,10 @@
         'MsgBox("Hallo Welt")
     End Sub
 
+    Private Sub AToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AToolStripMenuItem.Click
+        MsgBox("http://www.nasa.gov/mission_pages/station/expeditions/past.html#.Uxwkmvl5PCs" & Chr(13) _
+               & "http://www.nasa.gov/mission_pages/station/expeditions/future.html#.UxwlH_l5PCs" & Chr(13), MsgBoxStyle.Critical, "Quellen")
+    End Sub
 End Class
 
 
